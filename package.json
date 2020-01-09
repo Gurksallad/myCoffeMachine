@@ -1,0 +1,22 @@
+{
+  "name": "mycoffemachine",
+  "version": "1.0.0",
+  "description": "myCoffeMachine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gurksallad/myCoffeMachine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gurksallad/myCoffeMachine/issues"
+  },
+  "homepage": "https://github.com/Gurksallad/myCoffeMachine#readme",
+  "dependencies": {
+    "selenium-cucumber-js": "^1.7.0"
+  }
+}
