@@ -1,56 +1,46 @@
 ### Properties
 
-espressoBtn()
-
 espressoOutlet()
-
-cafeLatteBtn()
-
 cafeLatteOutlet()
-
-blackCoffeeBtn()
-
 blackCoffeOutlet()
-
-scaleForCoffee()
 
 coffeMachineFan(boolean)
 
 amoutOfCoffeeBeans(boolean)
+scaleForCoffee()
 
 beanBlenderForEspresso()
-
 beanBlenderForLatte()
-
 beanBlenderForblackCoffee()
 
 connected2Water(boolean)
-
 conected2Waste(boolean)
-
 connected2Power(boolean)
 
 charcoalFilterReplace(number)
 
 amountOfWaterStored()
-
 boilWater()
-
 amountOfMilkStored()
 
 milkCooler()
 
 cleanCycleSetting(boolean)
-
 waterTray()
-
 removalOfCleanCycleWater()
 
-ammountOfCoffeDisplay()
+
 
 costForCoffee()
 
 ### Methods
+ammountOfCoffeDisplay()
+
+espressoBtn()
+
+cafeLatteBtn()
+
+blackCoffeeBtn()
 
 chooseCoffeDisplay
 

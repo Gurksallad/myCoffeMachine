@@ -1,23 +1,16 @@
 Feature:
-  As a coffee buyer
-  I want a basic machine that
-  I can put a 10 kr coin in
-  and get a black cup of coffee back
-  because I crave caffeine.
+    As a coffe machine i want to be able to
+    make 3 different types of coffee.
+    The different types of coffee will be:
+    black coffee, caffe latte and espresso. 
+    I as a coffe machine want to be able to clean myself.
 
-  Scenario Outline:
-    Given that the machine is plugged in
-    And that water is available
-    And that the machine has enough ground coffee
-    And the machine has plastic cups
-    When the user inserts a <money1> kr coin
-    And the user inserts a <money2> kr coin
-    And presses the "start" button
-    Then the user recieves <cup> cup of coffee.
-
-    Examples:
-      | money1 | money2 | cup |
-      | 10     | 0      | 1   |
-      | 5      | 5      | 1   |
-      | 1      | 1      | 0   |
-      | "byxknapp" | 1  | 0   |
+Scenario:
+    Given that the machine is pluggen in
+    And the water is available
+    And that the machine has enough coffe beans in each different coffe container
+    And enough stored milk for the different coffees.
+    When type of coffee has been chosen
+    And paid for fully
+    And pressed the "Start" button
+    Then the coffe will be emptied down in the propper outlet
