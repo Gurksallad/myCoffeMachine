@@ -5,7 +5,9 @@ cafeLatteOutlet()
 blackCoffeOutlet()
 
 coffeMachineFan(boolean)
-amoutOfCoffeeBeans(boolean)
+amoutOfCoffeContainter1()
+amoutOfCoffeContainter2()
+amoutOfCoffeContainter3()
 scaleForCoffee()
 
 beanBlenderForEspresso()
@@ -18,10 +20,8 @@ connectedToPower(boolean)
 
 charcoalFilterReplace(number)
 
-amountOfWaterStored()
 boilWater()
 amountOfMilkStored()
-
 milkCooler()
 
 cleanCycleSetting(boolean)

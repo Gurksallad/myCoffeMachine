@@ -14,7 +14,7 @@
             "name": "that the machine is pluggen in",
             "result": {
               "status": "passed",
-              "duration": 513500
+              "duration": 461700
             },
             "line": 9,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 160600
+              "duration": 143299
             },
             "line": 10,
             "match": {
@@ -39,8 +39,9 @@
             "keyword": "And ",
             "name": "that the machine has enough coffe beans in each different coffe container",
             "result": {
-              "status": "passed",
-              "duration": 113399
+              "status": "failed",
+              "duration": 3139400,
+              "error_message": "TypeError: myMachine.coffeePerRegularBlackCoffee is not a function\n    at createWorld.<anonymous> (C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:21:36)\n    at processTicksAndRejections (internal/process/task_queues.js:76:11)"
             },
             "line": 11,
             "match": {
@@ -52,12 +53,11 @@
             "keyword": "And ",
             "name": "enough stored milk for the different coffees.",
             "result": {
-              "status": "passed",
-              "duration": 91900
+              "status": "skipped"
             },
             "line": 12,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:25"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:31"
             }
           },
           {
@@ -65,12 +65,23 @@
             "keyword": "When ",
             "name": "type of coffee has been chosen",
             "result": {
-              "status": "passed",
-              "duration": 91000
+              "status": "skipped"
             },
             "line": 13,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:29"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if there is enough coffe left for a cup of coffee",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:39"
             }
           },
           {
@@ -78,12 +89,11 @@
             "keyword": "And ",
             "name": "paid for fully",
             "result": {
-              "status": "passed",
-              "duration": 90100
+              "status": "skipped"
             },
-            "line": 14,
+            "line": 15,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:33"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:43"
             }
           },
           {
@@ -91,13 +101,11 @@
             "keyword": "And ",
             "name": "pressed the \"Start\" button",
             "result": {
-              "status": "failed",
-              "duration": 93300,
-              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
+              "status": "skipped"
             },
-            "line": 15,
+            "line": 16,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:47"
             }
           },
           {
@@ -107,9 +115,9 @@
             "result": {
               "status": "skipped"
             },
-            "line": 16,
+            "line": 17,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:41"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:51"
             }
           },
           {
@@ -117,7 +125,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2251450300
+              "duration": 6389435100
             },
             "hidden": true,
             "embeddings": [

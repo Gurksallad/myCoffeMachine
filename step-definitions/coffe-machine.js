@@ -18,7 +18,13 @@ module.exports = function () {
     });
 
     this.Given(/^that the machine has enough coffe beans in each different coffe container$/, function () {
-        
+        assert.deepEqual(myMachine.coffeePerRegularBlackCoffee(),false,'Expected a new machine to not have enough coffee');
+        myMachine.fillContainer1WithCoffee(500);
+        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),true,'Expected to have enough coffee for a cup (after filling it with 100 grams of ground coffee');
+
+        myMachine.espressoCoffeeAmount();
+
+        myMachine.cafeLatteCoffeeAmount();
 
     });
 
@@ -30,6 +36,10 @@ module.exports = function () {
 
     });
     
+    this.When(/^if there is enough coffe left for a cup of coffee$/, function () {
+
+    });
+
     this.When(/^paid for fully$/, function () {
 
     });

@@ -11,6 +11,7 @@ Scenario:
     And that the machine has enough coffe beans in each different coffe container
     And enough stored milk for the different coffees.
     When type of coffee has been chosen
+    And if there is enough coffe left for a cup of coffee
     And paid for fully
     And pressed the "Start" button
     Then the coffe will be emptied down in the propper outlet
