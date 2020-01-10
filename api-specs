@@ -5,7 +5,6 @@ cafeLatteOutlet()
 blackCoffeOutlet()
 
 coffeMachineFan(boolean)
-
 amoutOfCoffeeBeans(boolean)
 scaleForCoffee()
 
@@ -13,9 +12,9 @@ beanBlenderForEspresso()
 beanBlenderForLatte()
 beanBlenderForblackCoffee()
 
-connected2Water(boolean)
-conected2Waste(boolean)
-connected2Power(boolean)
+connectedToWater(boolean)
+conectedToWaste(boolean)
+connectedToPower(boolean)
 
 charcoalFilterReplace(number)
 

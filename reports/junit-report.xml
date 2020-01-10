@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="8" failures="0" skipped="8">
+    <testsuite name=";" tests="8" failures="1" skipped="1">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is pluggen in" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that the machine is pluggen in" classname=";" time="0.0005135">
         </testcase>
-        <testcase name="And the water is available" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the water is available" classname=";" time="0.0001606">
         </testcase>
-        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";" time="0.000113399">
         </testcase>
-        <testcase name="And enough stored milk for the different coffees." classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="And enough stored milk for the different coffees." classname=";" time="0.0000919">
         </testcase>
-        <testcase name="When type of coffee has been chosen" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="When type of coffee has been chosen" classname=";" time="0.000091">
         </testcase>
-        <testcase name="And paid for fully" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="And paid for fully" classname=";" time="0.0000901">
         </testcase>
-        <testcase name="And pressed the &quot;Start&quot; button" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="And pressed the &quot;Start&quot; button" classname=";" time="0.0000933">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
         </testcase>
         <testcase name="Then the coffe will be emptied down in the propper outlet" classname=";">
             <skipped message="">
