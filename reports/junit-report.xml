@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="8">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is pluggen in" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the water is available" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And enough stored milk for the different coffees." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When type of coffee has been chosen" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And paid for fully" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And pressed the &quot;Start&quot; button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the coffe will be emptied down in the propper outlet" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
     </testsuite>
 </testsuites>

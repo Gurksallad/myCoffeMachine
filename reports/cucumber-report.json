@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "description": "    As a coffe machine i want to be able to\n    make 3 different types of coffee.\n    The different types of coffee will be:\n    black coffee, caffe latte and espresso. \n    I as a coffe machine want to be able to clean myself.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is pluggen in",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough coffe beans in each different coffe container",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "enough stored milk for the different coffees.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "type of coffee has been chosen",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "paid for fully",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed the \"Start\" button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the coffe will be emptied down in the propper outlet",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 9223718000
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature"
+  }
+]
