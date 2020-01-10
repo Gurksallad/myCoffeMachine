@@ -46,9 +46,17 @@ waterTray()
 
 removalOfCleanCycleWater()
 
+ammountOfCoffeDisplay()
+
+costForCoffee()
+
 ### Methods
 
+chooseCoffeDisplay
 
+insertMoney(amount) //coins
+
+cardBlip(amount)
 
 
 G-krav
