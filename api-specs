@@ -12,7 +12,17 @@ blackCoffeeBtn()
 
 blackCoffeOutlet()
 
-amoutOfCoffee(boolean)
+scaleForCoffee()
+
+coffeMachineFan(boolean)
+
+amoutOfCoffeeBeans(boolean)
+
+beanBlenderForEspresso()
+
+beanBlenderForLatte()
+
+beanBlenderForblackCoffee()
 
 connected2Water(boolean)
 
