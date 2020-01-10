@@ -1,0 +1,60 @@
+### Properties
+
+espressoBtn()
+
+espressoOutlet()
+
+cafeLatteBtn()
+
+cafeLatteOutlet()
+
+blackCoffeeBtn()
+
+blackCoffeOutlet()
+
+amoutOfCoffee(boolean)
+
+connected2Water(boolean)
+
+conected2Waste(boolean)
+
+connected2Power(boolean)
+
+charcoalFilterReplace(number)
+
+amountOfWaterStored()
+
+boilWater()
+
+amountOfMilkStored()
+
+milkCooler()
+
+cleanCycleSetting(boolean)
+
+waterTray()
+
+removalOfCleanCycleWater()
+
+### Methods
+
+
+
+
+G-krav
+    Du ska ha beskrivit kaffemaskinens funktionalitet och utseende på ett förståeligt sätt.
+    Du sak ha skrivit en saklig api-dokumentation.
+    Din kaffemaskin ska kunna leverera minst tre olika drycker/variationer på drycker.
+    Det ska gå att betala på minst två olika sätt (t.ex. med olika myntvalörer, med kontokort och mynt eller liknande).
+    Du ska skriva så många scenarier som behövs för att testa alla möjliga sätt att använda (och missbruka) maskinen.
+    Du ska ha ha skrivit step-definitions och programkod för minst 20% av dina scenarier.
+    Lägg dina dokument och din kod i ett git-repo.
+
+VG-krav
+
+Samma som G-kraven samt:
+
+    Du ska ha ha skrivit step-definitions och programkod för ytterligare 20% av dina scenarier (totalt 40%).
+    Step-definitions ska använda sig av att Cucumber kan plocka ut siffror och/eller strängar från Gherkin och skicka till dem.
+    Du ska ha använt scenario outlines och minst en feature background.
+    Gör väl namngivna commits kontinuerligt under utveckling av scenarier, testkod och applikationskod i ditt git-repo.
