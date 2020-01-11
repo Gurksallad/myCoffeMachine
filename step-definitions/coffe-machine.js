@@ -19,15 +19,16 @@ module.exports = function () {
 
     this.Given(/^that the machine has enough coffe beans in each different coffe container$/, function () {
         assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),false,'Expected a new machine to not have enough coffee');
-        myMachine.fillContainer1WithCoffee(500);
+        myMachine.fillContainer1WithCoffee(1500);
         assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),true,'Expected to have enough coffee for a cup (after filling it with 500 grams of ground coffee');
 
         assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(),false,'Expected a new machine to not have enough coffee');
-        myMachine.fillContainer2WithCoffee(500);
+        //coffee beans in g
+        myMachine.fillContainer2WithCoffee(1500);
         assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(),true,'Expected to have enough coffee for a cup (after filling it with 500 grams of ground coffee');
 
         assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(),false,'Expected a new machine to not have enough coffee');
-        myMachine.fillContainer3WithCoffee(500);
+        myMachine.fillContainer3WithCoffee(1500);
         assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(),true,'Expected to have enough coffee for a cup (after filling it with 500 grams of ground coffee');
     });
 
@@ -36,7 +37,8 @@ module.exports = function () {
 
         assert.deepEqual(myMachine.checkAmountOfMilkForLatte(),false,'Expected a new machine to not have enough milk');
 
-        myMachine.fillWithMilk(1000);
+        //in (ml)
+        myMachine.fillWithMilk(10000);
 
         assert.deepEqual(myMachine.checkAmountOfMilkForLatte(),true,'Expected to have enough milk for a cup (after filling it with 1l  of milk');
         assert.deepEqual(myMachine.checkAmountOfMilkForMocha(),true,'Expected to have enough milk for a cup (after filling it with 1l  of milk');
@@ -88,4 +90,5 @@ module.exports = function () {
         myMachine.checkIfFlushed();
         assert.strictEqual(myMachine.trayIsFlushed, true, 'Expected the property trayIsFlushed to be true after calling the checkIfFlushed() method');
     });
+    
 }

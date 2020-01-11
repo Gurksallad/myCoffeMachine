@@ -18,8 +18,6 @@ connectedToWater(boolean)
 conectedToWaste(boolean)
 connectedToPower(boolean)
 
-
-
 boilWater()
 milkFoamer()
 amountOfMilkStored()

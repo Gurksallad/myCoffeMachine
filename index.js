@@ -12,34 +12,40 @@ class CoffeeMachine {
       this.coolerForMilk = false;
       this.coolerForMilkTempOk = false;
 
-      this.milkCoolerTemp = 0;
-
-      this.amountOfMilk = 0;
-      this.milkPerMocha = 10;
-      this.milkPerLatte = 30;
-
+      //amount of coffe beans in g
       this.amoutOfCoffeContainter1 = 0;
       this.amoutOfCoffeContainter2 = 0;
-      this.amoutOfCoffeContainter3 = 0;
+      this.amoutOfCoffeContainter3 = 0; 
+      
+      this.lockForContainer1Outlet = false;
+      this.lockForContainer2Outlet = false;
+      this.lockForContainer3Outlet = false; 
+      
+      this.flushWaterTray = false;
+      this.trayIsFlushed = false;
 
-      this.coffeePerRegularBlackCoffee = 13;
-      this.mochaPerCup = 10;
-      this.lattePerCup = 10;
+//settings
+      //amount of coffebeams per type of coffee in g
+      //cup 3dl - 300ml
+      this.coffeePerRegularBlackCoffee = 15;
+      this.mochaPerCup = 26;
+      this.lattePerCup = 30;
+
+      //amount of milk in ml
+      this.amountOfMilk = 0;
+      this.milkPerMocha = 110;
+      this.milkPerLatte = 200;
 
       this.coffeeTypeRegular = false;
       this.coffeeTypeLatte = false;
       this.coffeeTypeMocha = false;
-
-      this.lockForContainer1Outlet = false;
-      this.lockForContainer2Outlet = false;
-      this.lockForContainer3Outlet = false;
-
+      
+      this.milkCoolerTemp = 0;
       this.waterTrayScaleWeigh = 0;
-      this.flushWaterTray = false;
-      this.trayIsFlushed = false;
+
 
     }
-    
+    //maintenance
     pluggedInToPower(){
       this.connectedToPower = true;
     }
@@ -185,8 +191,6 @@ class CoffeeMachine {
     }
 
   }
- 
-  
  
   // Export the CoffeeMachine class
   module.exports = CoffeeMachine;

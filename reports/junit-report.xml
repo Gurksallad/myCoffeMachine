@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="8" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is pluggen in" classname=";" time="0.000562399">
-        </testcase>
-        <testcase name="And the water is available" classname=";" time="0.0001592">
-        </testcase>
-        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";" time="0.0003545">
-        </testcase>
-        <testcase name="And enough stored milk for the different coffees." classname=";" time="0.0004194">
-        </testcase>
-        <testcase name="When type of coffee has been chosen" classname=";" time="0.000186501">
-        </testcase>
-        <testcase name="Then the coffe will be emptied down in the propper outlet if no cup is placed coffe will be emptied in the water tray" classname=";" time="0.000201599">
-        </testcase>
-        <testcase name="And if a certain amount of weight is in the water tray, flush it." classname=";" time="0.0005349">
-        </testcase>
-        <testcase name="And check if its flushed." classname=";" time="0.0001688">
-        </testcase>
+    <testsuite>
     </testsuite>
 </testsuites>

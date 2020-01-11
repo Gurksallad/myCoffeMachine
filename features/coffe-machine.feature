@@ -5,7 +5,7 @@ Feature:
     black coffee, caffe latte and espresso. 
     I as a coffe machine want to be able to clean myself.
 
-Scenario:
+Scenario Outline:
     Given that the machine is pluggen in
     And the water is available
     And that the machine has enough coffe beans in each different coffe container
