@@ -10,6 +10,9 @@ class CoffeeMachine {
       this.connectedToWaste = false;
       this.coffeMachineFan = false;
       this.coolerForMilk = false;
+      this.coolerForMilkTempOk = false;
+
+      this.milkCoolerTemp = 0;
 
       this.amountOfMilk = 0;
       this.milkPerMocha = 10;
@@ -31,10 +34,12 @@ class CoffeeMachine {
       this.lockForContainer2Outlet = false;
       this.lockForContainer3Outlet = false;
 
-      this.waterTrayScaleWeight = 0;
+      this.waterTrayScaleWeigh = 0;
+      this.flushWaterTray = false;
+      this.trayIsFlushed = false;
 
     }
-
+    
     pluggedInToPower(){
       this.connectedToPower = true;
     }
@@ -67,9 +72,15 @@ class CoffeeMachine {
       this.amountOfMilk += amount;
     }
 
-    milkCooler(){
+    milkCooler(temp){
       if(this.connectedToPower == true){
         this.coolerForMilk = true;
+        if(this.coolerForMilk == true){
+          this.milkCoolerTemp += temp;
+          if(this.milkCoolerTemp <= temp){
+            this.coolerForMilkTempOk = true;
+          }
+        }
       }
     }
 
@@ -143,8 +154,36 @@ class CoffeeMachine {
     }
 
     checkIfWaterTrayIsEmpty(amount){
-      this.waterTrayScaleWeight += amount;
+      this.waterTrayScaleWeigh += amount;
     }
+
+    startFlushingWaterTray(){
+      if(this.connectedToWater == true){
+        if(this.connectedToPower == true){
+          if(this.connectedToWaste == true){
+            this.flushWaterTray = true;
+            if(this.flushWaterTray == true){
+              this.waterTrayScaleWeigh = 0;
+            }
+          }
+        }
+      }
+    }
+
+    emptyWaterTrayFromWaste(){
+      if(this.waterTrayScaleWeigh >= 15){
+        return this.flushWaterTray;
+      }
+    }
+
+    checkIfFlushed(){
+      if(this.flushWaterTray == true){
+        if(this.waterTrayScaleWeigh == 0){
+          this.trayIsFlushed = true;
+        }
+      }
+    }
+
   }
  
   

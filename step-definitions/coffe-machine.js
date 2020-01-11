@@ -33,17 +33,22 @@ module.exports = function () {
 
     this.Given(/^enough stored milk for the different coffees\.$/, function () {
         assert.deepEqual(myMachine.checkAmountOfMilkForMocha(),false,'Expected a new machine to not have enough milk');
-        //enough coffe method
+
         assert.deepEqual(myMachine.checkAmountOfMilkForLatte(),false,'Expected a new machine to not have enough milk');
-        //enough coffe method
 
         myMachine.fillWithMilk(1000);
 
         assert.deepEqual(myMachine.checkAmountOfMilkForLatte(),true,'Expected to have enough milk for a cup (after filling it with 1l  of milk');
         assert.deepEqual(myMachine.checkAmountOfMilkForMocha(),true,'Expected to have enough milk for a cup (after filling it with 1l  of milk');
+    
+    
+        myMachine.milkCooler(7);
 
-        myMachine.milkCooler();
-        assert.strictEqual(myMachine.coolerForMilk, true, "Expected the property milkCooler to be true after calling the milkCooler() method.");
+        assert.strictEqual(myMachine.coolerForMilk, true, "Expected the property coolerForMilk to be true after calling the milkCooler() method.");
+
+        assert.isAtMost(myMachine.milkCoolerTemp, 7, "Expected the property milkCoolerTemp to be at most 7 degrees after calling the milkCooler() method.");
+
+        assert.strictEqual(myMachine.coolerForMilkTempOk, true, "Expected the property coolerForMilkTempOk to be true after calling the milkCooler() method.");
     });
 
     this.When(/^type of coffee has been chosen$/, function (){
@@ -57,7 +62,7 @@ module.exports = function () {
         assert.strictEqual(myMachine.coffeeTypeMocha, true, "Expect the chooseRegularCOffe to be true after calling the chooseRegularCOffe() method");
     });
 
-    this.Then(/^the coffe will be emptied down in the propper outlet$/, function () {
+    this.Then(/^the coffe will be emptied down in the propper outlet if no cup is placed coffe will be emptied in the water tray$/, function () {
         myMachine.containerLockToOutlet1();
         assert.strictEqual(myMachine.coffeeTypeRegular, true, "Expect the containerLockToOutlet1 to be true after calling the containerLockToOutlet1() method");
 
@@ -68,12 +73,19 @@ module.exports = function () {
         assert.strictEqual(myMachine.coffeeTypeRegular, true, "Expect the containerLockToOutlet3 to be true after calling the containerLockToOutlet3() method");
     });
 
-    this.Then(/^if no cup is placed coffe will be emptied in the water tray$/, function () {
-        assert.isBelow(waterTrayScaleWeight, 5,'Expect the waterTrayScaleWeight not to weigh anything more than 5g when the machine has never been used');
+    this.Then(/^if a certain amount of weight is in the water tray, flush it\.$/, function () {
+        assert.isBelow(myMachine.waterTrayScaleWeigh, 5,'Expect the waterTrayScaleWeight not to weigh anything more than 5g when the machine has never been used');
 
-        checkIfWaterTrayIsEmpty(50);
+        myMachine.checkIfWaterTrayIsEmpty(10);
 
-        assert.isAbove(waterTrayScaleWeight, 40,'Expect the waterTrayScaleWeight not to weigh anything more than 40g when the machine has never been used');
+        assert.isAtLeast(myMachine.waterTrayScaleWeigh, 10,'Expect the waterTrayScaleWeight not to weigh anything more than 40g when the machine has never been used');
 
+        myMachine.startFlushingWaterTray();
+        assert.strictEqual(myMachine.flushWaterTray, true, 'Expected the property startFlushingWaterTray to be true after calling the startFlushingWaterTray() method');
+    });
+
+    this.Then(/^check if its flushed\.$/, function (){
+        myMachine.checkIfFlushed();
+        assert.strictEqual(myMachine.trayIsFlushed, true, 'Expected the property trayIsFlushed to be true after calling the checkIfFlushed() method');
     });
 }
