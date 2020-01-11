@@ -18,37 +18,37 @@ module.exports = function () {
     });
 
     this.Given(/^that the machine has enough coffe beans in each different coffe container$/, function () {
-        assert.deepEqual(myMachine.coffeePerRegularBlackCoffee(),false,'Expected a new machine to not have enough coffee');
+        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),false,'Expected a new machine to not have enough coffee');
         myMachine.fillContainer1WithCoffee(500);
-        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),true,'Expected to have enough coffee for a cup (after filling it with 100 grams of ground coffee');
+        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),true,'Expected to have enough coffee for a cup (after filling it with 500 grams of ground coffee');
 
-        myMachine.espressoCoffeeAmount();
+        assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(),false,'Expected a new machine to not have enough coffee');
+        myMachine.fillContainer2WithCoffee(500);
+        assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(),true,'Expected to have enough coffee for a cup (after filling it with 500 grams of ground coffee');
 
-        myMachine.cafeLatteCoffeeAmount();
-
+        assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(),false,'Expected a new machine to not have enough coffee');
+        myMachine.fillContainer3WithCoffee(500);
+        assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(),true,'Expected to have enough coffee for a cup (after filling it with 500 grams of ground coffee');
     });
 
-    this.Given(/^enough stored milk for the different coffees\.$/, function () {
 
+    this.Given(/^enough stored milk for the different coffees\.$/, function () {
+        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(),false,'Expected a new machine to not have enough milk');
+        //enough coffe method
+        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(),false,'Expected a new machine to not have enough milk');
+        //enough coffe method
+
+        myMachine.fillWithMilk(1000);
+
+        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(),true,'Expected to have enough milk for a cup (after filling it with 1l  of milk');
+        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(),true,'Expected to have enough milk for a cup (after filling it with 1l  of milk');
+
+        myMachine.milkCooler();
+        assert.strictEqual(myMachine.coolerForMilk, true, "Expected the property milkCooler to be true after calling the milkCooler() method.");
     });
 
     this.When(/^type of coffee has been chosen$/, function (){
 
     });
-    
-    this.When(/^if there is enough coffe left for a cup of coffee$/, function () {
 
-    });
-
-    this.When(/^paid for fully$/, function () {
-
-    });
-
-    this.When(/^pressed the "([^"]*)" button$/, function () {
-
-    });
-
-    this.Then(/^the coffe will be emptied down in the propper outlet$/, function () {
-
-    });
 }

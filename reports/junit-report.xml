@@ -1,40 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="9" failures="1" skipped="6">
+    <testsuite name=";" tests="8" failures="0" skipped="3">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is pluggen in" classname=";" time="0.0004617">
+        <testcase name="Given that the machine is pluggen in" classname=";" time="0.0005717">
         </testcase>
-        <testcase name="And the water is available" classname=";" time="0.000143299">
+        <testcase name="And the water is available" classname=";" time="0.000174399">
         </testcase>
-        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";" time="0.0031394">
-            <failure message="TypeError: myMachine.coffeePerRegularBlackCoffee is not a function">TypeError: myMachine.coffeePerRegularBlackCoffee is not a function
-    at createWorld.&lt;anonymous&gt; (C:\Users\Max\Desktop\myCoffeMachine\step-definitions\coffe-machine.js:21:36)
-    at processTicksAndRejections (internal/process/task_queues.js:76:11)</failure>
+        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";" time="0.000895401">
         </testcase>
-        <testcase name="And enough stored milk for the different coffees." classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="And enough stored milk for the different coffees." classname=";" time="0.0002489">
         </testcase>
-        <testcase name="When type of coffee has been chosen" classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And if there is enough coffe left for a cup of coffee" classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And paid for fully" classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And pressed the &quot;Start&quot; button" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="When type of coffee has been chosen" classname=";" time="0.000218099">
         </testcase>
         <testcase name="Then the coffe will be emptied down in the propper outlet" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And if no cup is placed coffe will be emptied in the water tray" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And if a certain amount of weight is in the water tray, flush it." classname=";">
             <skipped message="">
             </skipped>
         </testcase>

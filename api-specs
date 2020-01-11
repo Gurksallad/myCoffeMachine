@@ -1,6 +1,6 @@
 ### Properties
 
-espressoOutlet()
+mochaOutlet()
 cafeLatteOutlet()
 blackCoffeOutlet()
 
@@ -10,7 +10,7 @@ amoutOfCoffeContainter2()
 amoutOfCoffeContainter3()
 scaleForCoffee()
 
-beanBlenderForEspresso()
+beanBlenderForMocha()
 beanBlenderForLatte()
 beanBlenderForblackCoffee()
 
@@ -18,11 +18,13 @@ connectedToWater(boolean)
 conectedToWaste(boolean)
 connectedToPower(boolean)
 
-charcoalFilterReplace(number)
+
 
 boilWater()
+milkFoamer()
 amountOfMilkStored()
-milkCooler()
+coolerForMilk()
+checkAmountOfMilk
 
 cleanCycleSetting(boolean)
 waterTray()
