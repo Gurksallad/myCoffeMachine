@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="8" failures="0" skipped="3">
+    <testsuite name=";" tests="8" failures="0" skipped="2">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is pluggen in" classname=";" time="0.0005717">
+        <testcase name="Given that the machine is pluggen in" classname=";" time="0.0005663">
         </testcase>
-        <testcase name="And the water is available" classname=";" time="0.000174399">
+        <testcase name="And the water is available" classname=";" time="0.0001982">
         </testcase>
-        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";" time="0.000895401">
+        <testcase name="And that the machine has enough coffe beans in each different coffe container" classname=";" time="0.0003761">
         </testcase>
-        <testcase name="And enough stored milk for the different coffees." classname=";" time="0.0002489">
+        <testcase name="And enough stored milk for the different coffees." classname=";" time="0.0003046">
         </testcase>
-        <testcase name="When type of coffee has been chosen" classname=";" time="0.000218099">
+        <testcase name="When type of coffee has been chosen" classname=";" time="0.0001928">
         </testcase>
-        <testcase name="Then the coffe will be emptied down in the propper outlet" classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the coffe will be emptied down in the propper outlet" classname=";" time="0.0002214">
         </testcase>
         <testcase name="And if no cup is placed coffe will be emptied in the water tray" classname=";">
             <skipped message="">

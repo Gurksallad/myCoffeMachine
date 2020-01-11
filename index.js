@@ -23,9 +23,16 @@ class CoffeeMachine {
       this.mochaPerCup = 10;
       this.lattePerCup = 10;
 
-      this.coffeeTypeRegular
-      this.coffeeTypeLatte
-      this.coffeeTypeMocha
+      this.coffeeTypeRegular = false;
+      this.coffeeTypeLatte = false;
+      this.coffeeTypeMocha = false;
+
+      this.lockForContainer1Outlet = false;
+      this.lockForContainer2Outlet = false;
+      this.lockForContainer3Outlet = false;
+
+      this.waterTrayScaleWeight = 0;
+
     }
 
     pluggedInToPower(){
@@ -104,7 +111,45 @@ class CoffeeMachine {
       return this.amoutOfCoffeContainter3 >= this.lattePerCup;
     }
 
+    chooseRegularCoffee(){
+      this.coffeeTypeRegular = true;
+
+    }
+
+    chooseLatteCoffee(){
+      this.coffeeTypeLatte = true;
+    }
+
+    chooseMochaCoffee(){
+      this.coffeeTypeMocha = true;
+    }
+
+    containerLockToOutlet1(){
+      if(this.chooseRegularCoffee == true){
+        this.lockForContainer1Outlet = true;
+      }
+    }
+
+    containerLockToOutlet2(){
+      if(this.chooseLatteCoffee == true){
+        this.lockForContainer2Outlet = true;
+      }
+    }
+
+    containerLockToOutlet3(){
+      if(this.chooseMochaCoffee == true){
+        this.lockForContainer3Outlet = true;
+      }
+    }
+
+    checkIfWaterTrayIsEmpty(amount){
+      this.waterTrayScaleWeight += amount;
+    }
   }
+ 
   
+ 
   // Export the CoffeeMachine class
   module.exports = CoffeeMachine;
+
+

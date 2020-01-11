@@ -28,6 +28,7 @@ checkAmountOfMilk
 
 cleanCycleSetting(boolean)
 waterTray()
+waterTrayScale()
 removalOfCleanCycleWater()
 
 
