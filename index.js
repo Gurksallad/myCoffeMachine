@@ -11,6 +11,8 @@ class CoffeeMachine {
       this.coffeMachineFan = false;
       this.coolerForMilk = false;
       this.coolerForMilkTempOk = false;
+      this.milkCoolerTempOn = false;
+      this.machineIsOn = false;
 
       //amount of coffe beans in g
       this.amoutOfCoffeContainter1 = 0;
@@ -62,7 +64,20 @@ class CoffeeMachine {
 
     machineFanOn(){
       if(this.connectedToPower == true){
-        this.machineFanOn = true;
+        this.coffeMachineFan = true;
+      }
+    }
+
+    milkCoolerAndTemp(temp){
+      if(this.connectedToPower == true){
+        this.coolerForMilk = true;
+        this.milkCoolerTempOn = true;
+        if(this.coolerForMilk == true){
+          this.milkCoolerTemp += temp;
+          if(this.milkCoolerTemp <= temp){
+            this.coolerForMilkTempOk = true;
+          }
+        }
       }
     }
 
@@ -76,18 +91,6 @@ class CoffeeMachine {
 
     fillWithMilk(amount){
       this.amountOfMilk += amount;
-    }
-
-    milkCooler(temp){
-      if(this.connectedToPower == true){
-        this.coolerForMilk = true;
-        if(this.coolerForMilk == true){
-          this.milkCoolerTemp += temp;
-          if(this.milkCoolerTemp <= temp){
-            this.coolerForMilkTempOk = true;
-          }
-        }
-      }
     }
 
     mochaCoffeeAmount(amount){

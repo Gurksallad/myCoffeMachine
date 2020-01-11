@@ -1,1 +1,198 @@
-[]
+[
+  {
+    "description": "    As a coffee machine i want to be able to make\n    three different types of coffee, clean myself, display my functions \n    and produce coffee for the buyer.",
+    "elements": [
+      {
+        "id": "coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "basic functions for the coffe machine to work",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 733099
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 138799
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 164100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine is has power",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press start \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine is on",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2164481700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-inner-basics;coffee-machine-coolers-functions",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "coffee machine coolers-functions",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the coffee machines fan is connected",
+            "result": {
+              "status": "passed",
+              "duration": 201799
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the cooler for the milk is connected",
+            "result": {
+              "status": "passed",
+              "duration": 168700
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the cooler thermometer is connected to cooler",
+            "result": {
+              "status": "passed",
+              "duration": 187699
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "machine is started",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if the fan is on",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the cooler is on",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the temperature is at most 7 degrees",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1575648200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "coffe-machine-inner-basics",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "coffe machine inner basics",
+    "tags": [],
+    "uri": "C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature"
+  }
+]

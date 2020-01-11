@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite>
+    <testsuite name="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work" tests="6" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work" time="0.000733099">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work" time="0.000138799">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work" time="0.0001641">
+        </testcase>
+        <testcase name="When the machine is has power" classname="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then press start &quot;button&quot;" classname="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the machine is on" classname="coffe-machine-inner-basics;basic-functions-for-the-coffe-machine-to-work">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-coolers-functions" tests="7" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the coffee machines fan is connected" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions" time="0.000201799">
+        </testcase>
+        <testcase name="And that the cooler for the milk is connected" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions" time="0.0001687">
+        </testcase>
+        <testcase name="And that the cooler thermometer is connected to cooler" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions" time="0.000187699">
+        </testcase>
+        <testcase name="When machine is started" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then check if the fan is on" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that the cooler is on" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the temperature is at most 7 degrees" classname="coffe-machine-inner-basics;coffee-machine-coolers-functions">
+            <skipped message="">
+            </skipped>
+        </testcase>
     </testsuite>
 </testsuites>

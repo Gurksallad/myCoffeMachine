@@ -3,7 +3,7 @@ let myMachine;
 
 module.exports = function () {
    
-    this.Given(/^that the machine is pluggen in$/, function (){
+    this.Given(/^that the machine is plugged in$/, function (){
         myMachine = new CoffeeMachine();
         myMachine.pluggedInToPower();
         assert.strictEqual(myMachine.connectedToPower, true, 'Expected the property pluggedInToPower to be true after calling the pluggedInToPower() method');
@@ -11,11 +11,43 @@ module.exports = function () {
 
     this.Given(/^the water is available$/, function () {
         myMachine.pluggedInToWater();
-        assert.strictEqual(myMachine.connectedToWater, true, "Expected the property pluggedInToWater to be true after calling the pluggedInToWater() method.");
-
-        myMachine.pluggedInToWaste();
-        assert.strictEqual(myMachine.connectedToWaste, true, "Expected the property pluggedInToWaste to be true after calling the pluggedInToWaste() method.");
+        assert.strictEqual(myMachine.connectedToWater, true, "Expected the property connectedToWater to be true after calling the pluggedInToWater() method.");
     });
+
+    this.Given(/^the waste is available$/, function () {
+        myMachine.pluggedInToWaste();
+        assert.strictEqual(myMachine.connectedToWaste, true, "Expected the property connectedToWaste to be true after calling the pluggedInToWaste() method.");
+    });
+
+    this.When(/^the machine is started$/, function () {
+        
+    });
+
+    this.Given(/^that the coffee machines fan is connected$/, function () {
+        myMachine.machineFanOn();
+        assert.strictEqual(myMachine.coffeMachineFan, true, "Expected the property coffeMachineFan to be true after calling the machineFanOn() method.");
+    });
+
+    this.Given(/^that the cooler for the milk is connected$/, function () {
+        myMachine.milkCoolerAndTemp();
+        assert.strictEqual(myMachine.coolerForMilk, true, "Expected the property coolerForMilk to be true after calling the milkCoolerAndTemp() method.");
+    });
+
+    this.Given(/^that the cooler thermometer is connected to cooler$/, function () {
+        myMachine.milkCoolerAndTemp();
+        assert.strictEqual(myMachine.milkCoolerTempOn, true, "Expected the property milkCoolerTemp to be true after calling the milkCoolerAndTemp() method.");
+        assert.isAtMost(myMachine.coolerForMilkTempOk, 7, "Expected the property milkCoolerTemp to be at most 7 degrees after calling the milkCooler() method.");
+
+    });
+
+
+
+
+
+
+
+
+
 
     this.Given(/^that the machine has enough coffe beans in each different coffe container$/, function () {
         assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(),false,'Expected a new machine to not have enough coffee');
@@ -48,7 +80,6 @@ module.exports = function () {
 
         assert.strictEqual(myMachine.coolerForMilk, true, "Expected the property coolerForMilk to be true after calling the milkCooler() method.");
 
-        assert.isAtMost(myMachine.milkCoolerTemp, 7, "Expected the property milkCoolerTemp to be at most 7 degrees after calling the milkCooler() method.");
 
         assert.strictEqual(myMachine.coolerForMilkTempOk, true, "Expected the property coolerForMilkTempOk to be true after calling the milkCooler() method.");
     });

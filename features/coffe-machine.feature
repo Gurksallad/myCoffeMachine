@@ -1,16 +1,49 @@
-Feature:
-    As a coffe machine i want to be able to
-    make 3 different types of coffee.
-    The different types of coffee will be:
-    black coffee, caffe latte and espresso. 
-    I as a coffe machine want to be able to clean myself.
+Feature: coffe machine inner basics
+    As a coffee machine i want to be able to make
+    three different types of coffee, clean myself, display my functions 
+    and produce coffee for the buyer.
 
-Scenario Outline:
-    Given that the machine is pluggen in
-    And the water is available
-    And that the machine has enough coffe beans in each different coffe container
-    And enough stored milk for the different coffees.
-    When type of coffee has been chosen
-    Then the coffe will be emptied down in the propper outlet if no cup is placed coffe will be emptied in the water tray
-    And if a certain amount of weight is in the water tray, flush it.
-    And check if its flushed.
+Scenario: basic functions for the coffe machine to work
+  Given that the machine is plugged in 
+  And the water is available
+  And the waste is available
+  When the machine is has power
+  Then press start "button"
+  And the machine is on
+
+Scenario: coffee machine coolers-functions
+  Given that the coffee machines fan is connected
+  And that the cooler for the milk is connected
+  And that the cooler thermometer is connected to cooler
+  When machine is started
+  Then check if the fan is on
+  And that the cooler is on
+  And the temperature is at most 7 degrees
+  
+Scenario: coffee machine scales/weighs for blender
+
+Scenario: coffee machine blenders
+
+Scenario: coffee machine cleaning functions
+
+Scenario: amount of ingrediens per blackCoffee
+
+Scenario: amount of ingrediens per MochaCoffee
+
+Scenario: amount of ingrediens per CaffeLatte
+
+Scenario: coffee machine water-boiler
+
+Scenario: coffee machine milk-warmer
+
+Scenario: coffee machine coffee dispensers
+
+Scenario: coffee machine display-screen-coffees
+
+Scenario: coffee machine display-screen-coffee1-blackCoffee
+
+Scenario: coffee machine display-screen-coffee2-MochaCoffee
+
+Scenario: coffee machine display-screen-coffee3-CaffeLatte
+
+Scenario: coffee machine display-ingredients-status
