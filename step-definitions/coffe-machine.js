@@ -126,22 +126,70 @@ module.exports = function () {
 
     this.Given(/^that the bean grinders have power$/, function () {
         myMachine.checkIfBeanGrindersHavePower();
-        assert.strictEqual(myMachine.grinderPower1, true, 'expect grinder 1 to function if calling the checkIfBeanGrindersHavePower()');
-        assert.strictEqual(myMachine.grinderPower2, true, 'expect grinder 2 to function if calling the checkIfBeanGrindersHavePower()');
-        assert.strictEqual(myMachine.grinderPower3, true, 'expect grinder 3 to function if calling the checkIfBeanGrindersHavePower()');
+        assert.strictEqual(myMachine.grinderPower1, true, 'Expect grinderPower1 to be true if calling the checkIfBeanGrindersHavePower()');
+        assert.strictEqual(myMachine.grinderPower2, true, 'Expect grinderPower2 to be true if calling the checkIfBeanGrindersHavePower()');
+        assert.strictEqual(myMachine.grinderPower3, true, 'Expect grinderPower3 to be true if calling the checkIfBeanGrindersHavePower()');
     });
 
-    this.When(/^bean grinder are connected to containers enable grinder start\/off$/, function () {
-
+    this.When(/^bean grinder are connected to containers$/, function () {
+        myMachine.checkIfGrindersAreConnectedToConatiners();
+        assert.strictEqual(myMachine.grinder1ConnectedToCointainer1, true, 'Expect grinder1ConnectedToCointainer1 to be true if calling the checkIfGrindersAreConnectedToConatiners()');
+        assert.strictEqual(myMachine.grinder1ConnectedToCointainer2, true, 'Expect grinder1ConnectedToCointainer2 to be true if calling the checkIfGrindersAreConnectedToConatiners()');
+        assert.strictEqual(myMachine.grinder1ConnectedToCointainer3, true, 'Expect grinder1ConnectedToCointainer3 to be true if calling the checkIfGrindersAreConnectedToConatiners()');
     });
 
-    this.Then(/^start or stop grinder$/, function () {
+    this.Then(/^enable\/dissable grinders$/, function () {
 
     });
     //Scenario: coffee machine blenders ends
-}
+
+    //Scenario: coffee machine waterTray functions starts 
+
+    this.When(/^watertray scale has power$/, function () {
+        myMachine.enableWaterFlushingFunction();
+        assert.strictEqual(myMachine.waterTrayScalePower, true, "Expect waterTrayPower to have power when calling the enableWaterFlushingFunction() method");
+    });
+
+    this.Then(/^if watertray weighs a certain amount of waste$/, function () {     
+
+        assert.isAtMost(myMachine.waterTrayScaleWeigh, 5,'Expect the waterTrayScaleWeight not to weigh anything more than 5g when the machine has never been used');  
+        
+        myMachine.checkIfWaterTrayIsEmpty(15);
+
+        assert.isAbove(myMachine.waterTrayScaleWeigh, 10,'check if the waterTrayScaleWeight weigs more than 10g when calling the checkIfWaterTrayIsEmpty()');   
+    });
+
+    this.Then(/^find out if it needs to flush$/, function () {
+        myMachine.startFlushCleaning();
+        assert.strictEqual(myMachine.timeToCleanFlush, true, "[message]");
+    });
+    //Scenario: coffee machine waterTray functions ends
+
+    //Scenario: scale/weigh for milk for the coffee types start
+
+    this.When(/^milk scale is on$/, function () {
+        myMachine.checkIfMilkScaleIsOn();
+        assert.strictEqual(myMachine.milkScaleOn, true, "expect that milkScaleOn is true if calling the checkIfMilkScaleIsOn() method");
+    });
+
+    this.Then(/^weigh if there is any milk$/, function () {
+        myMachine.weighAmountOfMilk(0);
+        assert.deepEqual(myMachine.amountOfMilk, 0, "expect in a new machine that amountOfMilk weighs 0 when calling weighAmountOfMilk()");
+
+        myMachine.weighAmountOfMilk(5000); //ml 5l fill of milk
+        assert.isAtLeast(myMachine.amountOfMilk,2000,"expect to have atleast 2l of milk")
+    });
+
+    this.Then(/^warn if amount of milk is getting low$/, function () {
+        myMachine.weighAmountOfMilkWarning(1900);
+        assert.isBelow(myMachine.warningIfLowOnMilk, 2000,"expect warning when the amountOfMilk is bellow 2l of milk when calling weighAmountOfMilk()")
+    });
+
+    //Scenario: scale/weigh for milk for the coffee types end
+
+    //Scenario: amount of ingrediens per blackCoffee start
 
     
 
-
-
+    //Scenario: amount of ingrediens per blackCoffee end
+}

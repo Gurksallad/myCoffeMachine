@@ -30,16 +30,37 @@ Scenario: check the coffee machine scales/weighs for the coffee machine
 Scenario: coffee machine bean grinder
  Given that the machine is plugged in
  And that the bean grinders have power
- When bean grinder are connected to containers enable grinders start/off
- Then start or stop grinders
+ When bean grinder are connected to containers
+ Then enable/dissable grinders
 
-Scenario: coffee machine cleaning functions
+Scenario: coffee machine waterTray functions
+  Given that the machine is plugged in 
+  And the water is available
+  And the waste is available
+  When watertray scale has power
+  Then if watertray weighs a certain amount of waste
+  And find out if it needs to flush
+
+Scenario: scale/weigh for milk for the coffee types
+  Given that the machine is plugged in 
+  When milk scale is on
+  Then weigh if there is any milk
+  And warn if amount of milk is getting low
 
 Scenario: amount of ingrediens per blackCoffee
+Given that the machine needs coffe recepie
+When the machine wants to make black coffee
+Then select correct amount of ingrediens for black coffe
 
 Scenario: amount of ingrediens per MochaCoffee
+Given that the machine needs coffe recepie
+When the machine wants to make black coffee
+Then select correct amount of ingrediens for black coffe
 
 Scenario: amount of ingrediens per CaffeLatte
+Given that the machine needs coffe recepie
+When the machine wants to make black coffee
+Then select correct amount of ingrediens for black coffe
 
 Scenario: coffee machine water-boiler
 
