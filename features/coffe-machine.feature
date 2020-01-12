@@ -23,11 +23,15 @@ Scenario: check the coffee machine coolers-functions
 Scenario: check the coffee machine scales/weighs for the coffee machine
   Given that the machine is plugged in
   And that the scales/weighs have power
-  When the scales/weighs weigh the amount of coffe
-  And get the machine will return the amount of coffee that is inside
+  When the scales/weighs have power weigh the amount of coffe in the containers
+  And get the machine to return the amount of coffee that is inside containers
   Then return a warning when about to run low on coffee
 
-Scenario: coffee machine blenders
+Scenario: coffee machine bean grinder
+ Given that the machine is plugged in
+ And that the bean grinders have power
+ When bean grinder are connected to containers enable grinders start/off
+ Then start or stop grinders
 
 Scenario: coffee machine cleaning functions
 

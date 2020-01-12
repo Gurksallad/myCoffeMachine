@@ -19,7 +19,17 @@ class CoffeeMachine {
 
       this.machineIsOn = false;
 
-      this.generalMachineThermometer = false;
+      this.scaleForContainer1 = false;
+      this.scaleForContainer2 = false;
+      this.scaleForContainer3 = false;
+
+      this.scaleForContainerWeighs1 = false;
+      this.scaleForContainerWeighs2 = false;
+      this.scaleForContainerWeighs3 = false;
+      
+      this.grinderPower1 = false;
+      this.grinderPower2 = false;
+      this.grinderPower3 = false;
 
       //amount of coffe beans in g
       this.amoutOfCoffeContainter1 = 0;
@@ -55,6 +65,7 @@ class CoffeeMachine {
 
     }
     //maintenance
+    //scenario 1 start
     pluggedInToPower(){
       this.connectedToPower = true;
     }
@@ -74,7 +85,8 @@ class CoffeeMachine {
         this.machineIsOn = true;
       }
     }
-
+//scenario 1 end
+//scenario 2 start
     machineFanConnected(){
       if(this.connectedToPower == true){
         this.coffeFanIsOn = true;
@@ -97,7 +109,85 @@ class CoffeeMachine {
         return this.coolerForMilkTempOk;
       }
     }
+//scenario 2 end
 
+//scenario 3 start
+
+checkIfScalersHavePower(){
+  if(this.connectedToPower == true){
+  this.scaleForContainer1 = true;
+  this.scaleForContainer2 = true;
+  this.scaleForContainer3 = true;
+  }
+}
+
+scaleWeighCoffeeInContainers1(){
+  if(this.scaleForContainer1 == true){
+    this.scaleForContainerWeighs1 = true;
+    if(this.scaleForContainerWeighs1 == true){
+      return this.amoutOfCoffeContainter1;
+    }
+  }
+}
+
+scaleWeighCoffeeInContainers2(){
+  if(this.scaleForContainer2 == true){
+    this.scaleForContainerWeighs2 = true;
+    if(this.scaleForContainerWeighs2 == true){
+      return this.amoutOfCoffeContainter2;
+    }
+  }
+}
+scaleWeighCoffeeInContainers3(){
+  if(this.scaleForContainer3 == true){
+    this.scaleForContainerWeighs3 = true;
+    if(this.scaleForContainerWeighs3 == true){
+      return this.amoutOfCoffeContainter3;
+    }
+  }
+}
+
+checkIfContainer1HasEnoughCoffee(amount){
+  this.amoutOfCoffeContainter1 += amount;
+  
+  if(this.amoutOfCoffeContainter1 >= amount){
+    return "There is enough coffe in container 1"
+  } else if(this.amoutOfCoffeContainter1 < amount){
+    return "The amount of coffe is getting low"
+  }
+
+}
+
+checkIfContainer2HasEnoughCoffee(amount){
+  this.amoutOfCoffeContainter2 += amount;
+
+  if(this.amoutOfCoffeContainter2 >= amount){
+    return "There is enough coffe in container 2"
+  } else if(this.amoutOfCoffeContainter2 < amount){
+    return "The amount of coffe in container 2 is getting low"
+  }
+}
+
+checkIfContainer3HasEnoughCoffee(amount){
+  this.amoutOfCoffeContainter3 += amount; 
+
+  if(this.amoutOfCoffeContainter3 >= amount){
+    return "There is enough coffe in container 3"
+  } else if(this.amoutOfCoffeContainter3 < amount){
+    return "The amount of coffe in container 3 is getting low"
+  }
+}
+//scenario 3 end
+
+//scenario 4 start
+checkIfBeanGrindersHavePower(){
+  if(this.pluggedInToPower == true){
+    this.grinderPower1 = true;
+    this.grinderPower2 = true;
+    this.grinderPower3 = true;
+  }
+}
+//scenario 4 end
     checkAmountOfMilkForMocha(){
       return this.amountOfMilk >= this.milkPerMocha;
     }
