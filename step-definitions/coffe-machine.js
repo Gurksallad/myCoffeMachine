@@ -189,7 +189,19 @@ module.exports = function () {
 
     //Scenario: amount of ingrediens per blackCoffee start
 
-    
+    this.Given(/^that the machine needs coffe recepie$/, function () {
+        myMachine.checkIfCoffeMachineHasRecepies();
+        assert.strictEqual(myMachine.coffeeRecepie1, true, "expect that coffeeRecepie1 is true when calling checkIfCoffeMachineHasRecepies");
+        assert.strictEqual(myMachine.coffeeRecepie2, true, "expect that coffeeRecepie2 is true when calling checkIfCoffeMachineHasRecepies");
+        assert.strictEqual(myMachine.coffeeRecepie3, true, "expect that coffeeRecepie3 is true when calling checkIfCoffeMachineHasRecepies");
+    });
 
+    this.When(/^the machine wants to make coffee check ingredients$/, function () {
+
+    });
+
+    this.Then(/^select correct amount of ingrediens for black coffe check ingredients$/, function () {
+
+    });
     //Scenario: amount of ingrediens per blackCoffee end
 }

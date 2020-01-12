@@ -49,17 +49,17 @@ Scenario: scale/weigh for milk for the coffee types
 
 Scenario: amount of ingrediens per blackCoffee
 Given that the machine needs coffe recepie
-When the machine wants to make black coffee
+When the machine wants to make coffee check ingredients
 Then select correct amount of ingrediens for black coffe
 
 Scenario: amount of ingrediens per MochaCoffee
 Given that the machine needs coffe recepie
-When the machine wants to make black coffee
+When the machine wants to make coffee check ingredients
 Then select correct amount of ingrediens for black coffe
 
 Scenario: amount of ingrediens per CaffeLatte
 Given that the machine needs coffe recepie
-When the machine wants to make black coffee
+When the machine wants to make coffee check ingredients
 Then select correct amount of ingrediens for black coffe
 
 Scenario: coffee machine water-boiler

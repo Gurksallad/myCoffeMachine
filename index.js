@@ -55,7 +55,9 @@ class CoffeeMachine {
       this.lockForContainer2Outlet = false;
       this.lockForContainer3Outlet = false; 
       
-
+      this.coffeeRecepie1 = false;
+      this.coffeeRecepie2 = false;
+      this.coffeeRecepie3 = false;
 
 //settings
       //amount of coffebeams per type of coffee in g
@@ -306,6 +308,15 @@ weighAmountOfMilkWarning(amount){
 
 //scenario 7 start
 
+checkIfCoffeMachineHasRecepies(){
+  this.coffeeRecepie1 = true;
+  this.coffeeRecepie2 = true;
+  this.coffeeRecepie3 = true;
+}
+
+recepieForBlackCoffee(){
+
+}
 //scenario 7 end
 
 

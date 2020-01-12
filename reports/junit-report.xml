@@ -5,17 +5,17 @@
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0007193">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0006707">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001428">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.000113501">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.000152901">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001482">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0003098">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001844">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001368">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.000221501">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001279">
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001156">
         </testcase>
     </testsuite>
     <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" tests="7" failures="0" skipped="0">
@@ -23,19 +23,19 @@
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the coffe machine fan has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000138">
+        <testcase name="Given that the coffe machine fan has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001688">
         </testcase>
-        <testcase name="And that the cooler for the milk has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001554">
+        <testcase name="And that the cooler for the milk has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001478">
         </testcase>
-        <testcase name="And that the coooler thermometer is connected to the cooler" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000093199">
+        <testcase name="And that the coooler thermometer is connected to the cooler" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000096399">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0000471">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000063">
         </testcase>
-        <testcase name="Then check if the fan is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0000841">
+        <testcase name="Then check if the fan is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0000932">
         </testcase>
-        <testcase name="And that the milk cooler is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001284">
+        <testcase name="And that the milk cooler is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0000871">
         </testcase>
-        <testcase name="And the check the cooler temperature" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0002295">
+        <testcase name="And the check the cooler temperature" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0002011">
         </testcase>
     </testsuite>
     <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" tests="5" failures="0" skipped="0">
@@ -43,15 +43,15 @@
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000058301">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000591">
         </testcase>
-        <testcase name="And that the scales/weighs have power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000201901">
+        <testcase name="And that the scales/weighs have power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001981">
         </testcase>
-        <testcase name="When the scales/weighs have power weigh the amount of coffe in the containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000286">
+        <testcase name="When the scales/weighs have power weigh the amount of coffe in the containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0002331">
         </testcase>
-        <testcase name="And get the machine to return the amount of coffee that is inside containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001454">
+        <testcase name="And get the machine to return the amount of coffee that is inside containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001115">
         </testcase>
-        <testcase name="Then return a warning when about to run low on coffee" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000297701">
+        <testcase name="Then return a warning when about to run low on coffee" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0002549">
         </testcase>
     </testsuite>
     <testsuite name="coffe-machine-inner-basics;coffee-machine-bean-grinder" tests="4" failures="0" skipped="0">
@@ -59,13 +59,13 @@
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000054301">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000677">
         </testcase>
-        <testcase name="And that the bean grinders have power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0001599">
+        <testcase name="And that the bean grinders have power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000172401">
         </testcase>
-        <testcase name="When bean grinder are connected to containers" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000188">
+        <testcase name="When bean grinder are connected to containers" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000174199">
         </testcase>
-        <testcase name="Then enable/dissable grinders" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000826">
+        <testcase name="Then enable/dissable grinders" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000077201">
         </testcase>
     </testsuite>
     <testsuite name="coffe-machine-inner-basics;coffee-machine-watertray-functions" tests="6" failures="0" skipped="0">
@@ -73,17 +73,17 @@
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000604">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000852">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000527">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000629">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000636">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000757">
         </testcase>
-        <testcase name="When watertray scale has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001747">
+        <testcase name="When watertray scale has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001578">
         </testcase>
-        <testcase name="Then if watertray weighs a certain amount of waste" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.000296599">
+        <testcase name="Then if watertray weighs a certain amount of waste" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0002377">
         </testcase>
-        <testcase name="And find out if it needs to flush" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001489">
+        <testcase name="And find out if it needs to flush" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001499">
         </testcase>
     </testsuite>
     <testsuite name="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" tests="4" failures="0" skipped="0">
@@ -91,63 +91,63 @@
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000069301">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000852">
         </testcase>
-        <testcase name="When milk scale is on" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0001654">
+        <testcase name="When milk scale is on" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0001553">
         </testcase>
-        <testcase name="Then weigh if there is any milk" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000261699">
+        <testcase name="Then weigh if there is any milk" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000252201">
         </testcase>
-        <testcase name="And warn if amount of milk is getting low" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0001124">
+        <testcase name="And warn if amount of milk is getting low" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0001878">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" tests="3" failures="0" skipped="3">
+    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" tests="3" failures="1" skipped="1">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine needs coffe recepie" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that the machine needs coffe recepie" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001612">
         </testcase>
-        <testcase name="When the machine wants to make black coffee" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the machine wants to make coffee check ingredients" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0017235">
+            <failure message="AssertionError: [message]: expected false to equal true">AssertionError: [message]: expected false to equal true
+    at Function.assert.strictEqual (C:\Users\Max\Desktop\myCoffeMachine\node_modules\chai\lib\chai\interface\assert.js:178:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\Max\Desktop\myCoffeMachine\step-definitions\coffe-machine.js:201:16)
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)</failure>
         </testcase>
         <testcase name="Then select correct amount of ingrediens for black coffe" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" tests="3" failures="0" skipped="3">
+    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" tests="3" failures="1" skipped="1">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine needs coffe recepie" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that the machine needs coffe recepie" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000061">
         </testcase>
-        <testcase name="When the machine wants to make black coffee" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the machine wants to make coffee check ingredients" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0002297">
+            <failure message="AssertionError: [message]: expected false to equal true">AssertionError: [message]: expected false to equal true
+    at Function.assert.strictEqual (C:\Users\Max\Desktop\myCoffeMachine\node_modules\chai\lib\chai\interface\assert.js:178:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\Max\Desktop\myCoffeMachine\step-definitions\coffe-machine.js:201:16)
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)</failure>
         </testcase>
         <testcase name="Then select correct amount of ingrediens for black coffe" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" tests="3" failures="0" skipped="3">
+    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" tests="3" failures="1" skipped="1">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine needs coffe recepie" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that the machine needs coffe recepie" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000692">
         </testcase>
-        <testcase name="When the machine wants to make black coffee" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the machine wants to make coffee check ingredients" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0001638">
+            <failure message="AssertionError: [message]: expected false to equal true">AssertionError: [message]: expected false to equal true
+    at Function.assert.strictEqual (C:\Users\Max\Desktop\myCoffeMachine\node_modules\chai\lib\chai\interface\assert.js:178:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\Max\Desktop\myCoffeMachine\step-definitions\coffe-machine.js:201:16)
+    at processTicksAndRejections (internal/process/task_queues.js:76:11)</failure>
         </testcase>
         <testcase name="Then select correct amount of ingrediens for black coffe" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte">
             <skipped message="">
