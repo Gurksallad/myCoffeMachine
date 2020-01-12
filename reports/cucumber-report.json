@@ -14,7 +14,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 670700
+              "duration": 659000
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 113501
+              "duration": 112500
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 148200
+              "duration": 144699
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 184400
+              "duration": 137000
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "press the start \"button\" to start the machine",
             "result": {
               "status": "passed",
-              "duration": 221501
+              "duration": 143100
             },
             "line": 11,
             "match": {
@@ -79,7 +79,7 @@
             "name": "machine started",
             "result": {
               "status": "passed",
-              "duration": 115600
+              "duration": 119000
             },
             "line": 12,
             "match": {
@@ -91,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2155322399
+              "duration": 1626062900
             },
             "hidden": true,
             "match": {
@@ -114,7 +114,7 @@
             "name": "that the coffe machine fan has power",
             "result": {
               "status": "passed",
-              "duration": 168800
+              "duration": 177299
             },
             "line": 15,
             "match": {
@@ -127,7 +127,7 @@
             "name": "that the cooler for the milk has power",
             "result": {
               "status": "passed",
-              "duration": 147800
+              "duration": 161300
             },
             "line": 16,
             "match": {
@@ -140,7 +140,7 @@
             "name": "that the coooler thermometer is connected to the cooler",
             "result": {
               "status": "passed",
-              "duration": 96399
+              "duration": 109800
             },
             "line": 17,
             "match": {
@@ -153,7 +153,7 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 63000
+              "duration": 53000
             },
             "line": 18,
             "match": {
@@ -166,7 +166,7 @@
             "name": "check if the fan is on",
             "result": {
               "status": "passed",
-              "duration": 93200
+              "duration": 102300
             },
             "line": 19,
             "match": {
@@ -179,7 +179,7 @@
             "name": "that the milk cooler is on",
             "result": {
               "status": "passed",
-              "duration": 87100
+              "duration": 102400
             },
             "line": 20,
             "match": {
@@ -192,7 +192,7 @@
             "name": "the check the cooler temperature",
             "result": {
               "status": "passed",
-              "duration": 201100
+              "duration": 184301
             },
             "line": 21,
             "match": {
@@ -204,7 +204,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2052576100
+              "duration": 1534719000
             },
             "hidden": true,
             "match": {
@@ -227,7 +227,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 59100
+              "duration": 64899
             },
             "line": 24,
             "match": {
@@ -240,7 +240,7 @@
             "name": "that the scales/weighs have power",
             "result": {
               "status": "passed",
-              "duration": 198100
+              "duration": 183499
             },
             "line": 25,
             "match": {
@@ -253,7 +253,7 @@
             "name": "the scales/weighs have power weigh the amount of coffe in the containers",
             "result": {
               "status": "passed",
-              "duration": 233100
+              "duration": 230200
             },
             "line": 26,
             "match": {
@@ -266,7 +266,7 @@
             "name": "get the machine to return the amount of coffee that is inside containers",
             "result": {
               "status": "passed",
-              "duration": 111500
+              "duration": 112500
             },
             "line": 27,
             "match": {
@@ -279,7 +279,7 @@
             "name": "return a warning when about to run low on coffee",
             "result": {
               "status": "passed",
-              "duration": 254900
+              "duration": 297300
             },
             "line": 28,
             "match": {
@@ -291,7 +291,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2038394499
+              "duration": 1533539499
             },
             "hidden": true,
             "match": {
@@ -314,7 +314,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 67700
+              "duration": 56100
             },
             "line": 31,
             "match": {
@@ -327,11 +327,11 @@
             "name": "that the bean grinders have power",
             "result": {
               "status": "passed",
-              "duration": 172401
+              "duration": 164900
             },
             "line": 32,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:127"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:130"
             }
           },
           {
@@ -340,11 +340,11 @@
             "name": "bean grinder are connected to containers",
             "result": {
               "status": "passed",
-              "duration": 174199
+              "duration": 183400
             },
             "line": 33,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:134"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:137"
             }
           },
           {
@@ -353,11 +353,11 @@
             "name": "enable/dissable grinders",
             "result": {
               "status": "passed",
-              "duration": 77201
+              "duration": 64300
             },
             "line": 34,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:141"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:144"
             }
           },
           {
@@ -365,7 +365,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2049439700
+              "duration": 1543860601
             },
             "hidden": true,
             "match": {
@@ -388,7 +388,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 85200
+              "duration": 90800
             },
             "line": 37,
             "match": {
@@ -401,7 +401,7 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 62900
+              "duration": 53600
             },
             "line": 38,
             "match": {
@@ -414,7 +414,7 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 75700
+              "duration": 72900
             },
             "line": 39,
             "match": {
@@ -427,11 +427,11 @@
             "name": "watertray scale has power",
             "result": {
               "status": "passed",
-              "duration": 157800
+              "duration": 177200
             },
             "line": 40,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:148"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:151"
             }
           },
           {
@@ -440,11 +440,11 @@
             "name": "if watertray weighs a certain amount of waste",
             "result": {
               "status": "passed",
-              "duration": 237700
+              "duration": 315100
             },
             "line": 41,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:153"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:156"
             }
           },
           {
@@ -453,11 +453,11 @@
             "name": "find out if it needs to flush",
             "result": {
               "status": "passed",
-              "duration": 149900
+              "duration": 359200
             },
             "line": 42,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:162"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:165"
             }
           },
           {
@@ -465,7 +465,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1536200700
+              "duration": 2060522399
             },
             "hidden": true,
             "match": {
@@ -488,7 +488,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 85200
+              "duration": 63600
             },
             "line": 45,
             "match": {
@@ -501,11 +501,11 @@
             "name": "milk scale is on",
             "result": {
               "status": "passed",
-              "duration": 155300
+              "duration": 176200
             },
             "line": 46,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:170"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:173"
             }
           },
           {
@@ -514,11 +514,11 @@
             "name": "weigh if there is any milk",
             "result": {
               "status": "passed",
-              "duration": 252201
+              "duration": 288900
             },
             "line": 47,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:175"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:178"
             }
           },
           {
@@ -527,11 +527,11 @@
             "name": "warn if amount of milk is getting low",
             "result": {
               "status": "passed",
-              "duration": 187800
+              "duration": 142900
             },
             "line": 48,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:183"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:186"
             }
           },
           {
@@ -539,7 +539,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1534516700
+              "duration": 2047030800
             },
             "hidden": true,
             "match": {
@@ -559,53 +559,50 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the machine needs coffe recepie",
+            "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 161200
+              "duration": 266699
             },
             "line": 51,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:192"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:195"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the machine wants to make coffee check ingredients",
+            "name": "when ingrediens excistens are confirmed",
             "result": {
-              "status": "failed",
-              "duration": 1723500,
-              "error_message": "AssertionError: [message]: expected false to equal true\n    at Function.assert.strictEqual (C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\chai\\lib\\chai\\interface\\assert.js:178:32)\n    at createWorld.<anonymous> (C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:201:16)\n    at processTicksAndRejections (internal/process/task_queues.js:76:11)"
+              "status": "passed",
+              "duration": 157199
             },
             "line": 52,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:199"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:213"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "select correct amount of ingrediens for black coffe",
+            "name": "check if there is enough for a cup black coffee",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 141100
             },
-            "line": 53
+            "line": 53,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:218"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1649047001
+              "duration": 2078208999
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
@@ -623,34 +620,33 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the machine needs coffe recepie",
+            "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 61000
+              "duration": 114900
             },
             "line": 56,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:192"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:195"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the machine wants to make coffee check ingredients",
+            "name": "when ingrediens excistens are confirmed",
             "result": {
-              "status": "failed",
-              "duration": 229700,
-              "error_message": "AssertionError: [message]: expected false to equal true\n    at Function.assert.strictEqual (C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\chai\\lib\\chai\\interface\\assert.js:178:32)\n    at createWorld.<anonymous> (C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:201:16)\n    at processTicksAndRejections (internal/process/task_queues.js:76:11)"
+              "status": "passed",
+              "duration": 67200
             },
             "line": 57,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:199"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:213"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "select correct amount of ingrediens for black coffe",
+            "name": "check if there is enough for a cup Mocha",
             "result": {
               "status": "undefined"
             },
@@ -661,15 +657,9 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1639296100
+              "duration": 1538563000
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
@@ -687,34 +677,33 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the machine needs coffe recepie",
+            "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 69200
+              "duration": 84800
             },
             "line": 61,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:192"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:195"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the machine wants to make coffee check ingredients",
+            "name": "when ingrediens excistens are confirmed",
             "result": {
-              "status": "failed",
-              "duration": 163800,
-              "error_message": "AssertionError: [message]: expected false to equal true\n    at Function.assert.strictEqual (C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\chai\\lib\\chai\\interface\\assert.js:178:32)\n    at createWorld.<anonymous> (C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:201:16)\n    at processTicksAndRejections (internal/process/task_queues.js:76:11)"
+              "status": "passed",
+              "duration": 51300
             },
             "line": 62,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:199"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:213"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "select correct amount of ingrediens for black coffe",
+            "name": "check if there is enough for a cup caffe Latte",
             "result": {
               "status": "undefined"
             },
@@ -725,15 +714,9 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1658516300
+              "duration": 1571647000
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }

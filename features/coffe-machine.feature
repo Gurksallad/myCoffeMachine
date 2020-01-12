@@ -48,19 +48,19 @@ Scenario: scale/weigh for milk for the coffee types
   And warn if amount of milk is getting low
 
 Scenario: amount of ingrediens per blackCoffee
-Given that the machine needs coffe recepie
-When the machine wants to make coffee check ingredients
-Then select correct amount of ingrediens for black coffe
+Given that ingrediens excists
+When when ingrediens excistens are confirmed
+Then check if there is enough for a cup black coffee
 
 Scenario: amount of ingrediens per MochaCoffee
-Given that the machine needs coffe recepie
-When the machine wants to make coffee check ingredients
-Then select correct amount of ingrediens for black coffe
+Given that ingrediens excists
+When when ingrediens excistens are confirmed
+Then check if there is enough for a cup Mocha
 
 Scenario: amount of ingrediens per CaffeLatte
-Given that the machine needs coffe recepie
-When the machine wants to make coffee check ingredients
-Then select correct amount of ingrediens for black coffe
+Given that ingrediens excists
+When when ingrediens excistens are confirmed
+Then check if there is enough for a cup caffe Latte
 
 Scenario: coffee machine water-boiler
 

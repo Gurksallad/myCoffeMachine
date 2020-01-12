@@ -54,21 +54,20 @@ class CoffeeMachine {
       this.lockForContainer1Outlet = false;
       this.lockForContainer2Outlet = false;
       this.lockForContainer3Outlet = false; 
-      
-      this.coffeeRecepie1 = false;
-      this.coffeeRecepie2 = false;
-      this.coffeeRecepie3 = false;
 
+      this.ingredientsFound = false;
+      this.confirmation = false;
 //settings
       //amount of coffebeams per type of coffee in g
       //cup 3dl - 300ml
-      this.coffeePerRegularBlackCoffee = 15;
+      this.blackCoffeePerCup = 15;
       this.mochaPerCup = 26;
       this.lattePerCup = 30;
 
       //amount of milk in ml
       this.amountOfMilk = 0;
       this.warningIfLowOnMilk = 0;
+      this.noMilk = 0;
       this.milkPerMocha = 110;
       this.milkPerLatte = 200;
 
@@ -79,7 +78,8 @@ class CoffeeMachine {
       this.maxMilkCoolerTemp = 6;
       this.waterTrayScaleWeigh = 0;
 
-
+      //300ml
+      this.AmountOfWaterForBlackCoffee = 300;
     }
     //maintenance
     //scenario 1 start
@@ -164,34 +164,40 @@ scaleWeighCoffeeInContainers3(){
   }
 }
 
-checkIfContainer1HasEnoughCoffee(amount){
+fillCoffeeContainer1(amount){
   this.amoutOfCoffeContainter1 += amount;
-  
+
+}
+fillCoffeeContainer2(amount){
+  this.amoutOfCoffeContainter2 += amount;
+}
+
+fillCoffeeContainer3(amount){
+  this.amoutOfCoffeContainter3 += amount;
+}
+
+checkIfContainer1HasEnoughCoffee(amount){
   if(this.amoutOfCoffeContainter1 >= amount){
-    return "There is enough coffe in container 1"
-  } else if(this.amoutOfCoffeContainter1 < amount){
-    return "The amount of coffe is getting low"
+    return "There is enough coffe in container 1";
+  } else {
+    return "The amount of coffe is getting low";
   }
 
 }
 
 checkIfContainer2HasEnoughCoffee(amount){
-  this.amoutOfCoffeContainter2 += amount;
-
   if(this.amoutOfCoffeContainter2 >= amount){
-    return "There is enough coffe in container 2"
-  } else if(this.amoutOfCoffeContainter2 < amount){
-    return "The amount of coffe in container 2 is getting low"
+    return "There is enough coffe in container 2";
+  } else{
+    return "The amount of coffe in container 2 is getting low";
   }
 }
 
 checkIfContainer3HasEnoughCoffee(amount){
-  this.amoutOfCoffeContainter3 += amount; 
-
   if(this.amoutOfCoffeContainter3 >= amount){
-    return "There is enough coffe in container 3"
-  } else if(this.amoutOfCoffeContainter3 < amount){
-    return "The amount of coffe in container 3 is getting low"
+    return this.amoutOfCoffeContainter3 + "There is enough coffe in container 3";
+  } else {
+    return "The amount of coffe in container 3 is getting low";
   }
 }
 //scenario 3 end
@@ -307,58 +313,51 @@ weighAmountOfMilkWarning(amount){
 //scenario 6 end
 
 //scenario 7 start
-
-checkIfCoffeMachineHasRecepies(){
-  this.coffeeRecepie1 = true;
-  this.coffeeRecepie2 = true;
-  this.coffeeRecepie3 = true;
+checkIfEnoughBlackCoffeeForACup() {
+  return this.amoutOfCoffeContainter1 >= this.blackCoffeePerCup;
 }
 
-recepieForBlackCoffee(){
-
+checkIfEnoughMochaForACUP(){
+  return this.amoutOfCoffeContainter2 >= this.mochaPerCup;
 }
-//scenario 7 end
 
+checkIfEnoughLatteCoffeForACup(){
+  return this.amoutOfCoffeContainter3 >= this.lattePerCup;
+}
 
 checkAmountOfMilkForMocha(){
-      return this.amountOfMilk >= this.milkPerMocha;
+  return this.amountOfMilk >= this.milkPerMocha;
 }
 
 checkAmountOfMilkForLatte(){
       return this.amountOfMilk >= this.milkPerLatte;
 }
 
+ingredientsWeLookedForAreFound(){
+  this.ingredientsFound = true;
+}
+
+confirmIngredientsAreFound(){
+  if(this.ingredientsFound == true){
+    this.confirmation = true;
+  }
+}
 
 
-    mochaCoffeeAmount(amount){
-      this.amoutOfCoffeContainter1 += amount;
+//scenario 7 end
 
-    }
-    
-    cafeLatteCoffeeAmount(amount){
-      this.amoutOfCoffeContainter2 += amount;
 
-    }
 
-    blackCoffeAmount(amount){
-      this.amoutOfCoffeContainter3 += amount;
-    }
+
         
-    checkIfEnoughBlackCoffeeForACup() {
-      return this.amoutOfCoffeContainter1 >= this.coffeePerRegularBlackCoffee;
-    }
 
-    checkIfEnoughMochaForACUP(){
-      return this.amoutOfCoffeContainter2 >= this.mochaPerCup;
-    }
 
-    checkIfEnoughLatteCoffeForACup(){
-      return this.amoutOfCoffeContainter3 >= this.lattePerCup;
-    }
+
+
+
 
     chooseRegularCoffee(){
       this.coffeeTypeRegular = true;
-
     }
 
     chooseLatteCoffee(){

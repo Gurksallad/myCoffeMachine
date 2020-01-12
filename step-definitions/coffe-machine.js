@@ -111,13 +111,16 @@ module.exports = function () {
     });
 
     this.Then(/^return a warning when about to run low on coffee$/, function () {
-        myMachine.checkIfContainer1HasEnoughCoffee(5000);
+        myMachine.fillCoffeeContainer1(5000);
+        myMachine.checkIfContainer1HasEnoughCoffee(500);
         assert.isAtLeast(myMachine.amoutOfCoffeContainter1, 1000, 'amoutOfCoffeContainter1 has enough coffe in container1 when calling checkIfContainer1HasEnoughCoffee else its getting low');
 
-        myMachine.checkIfContainer2HasEnoughCoffee(5000);
+        myMachine.fillCoffeeContainer2(5000);
+        myMachine.checkIfContainer2HasEnoughCoffee(500);
         assert.isAtLeast(myMachine.amoutOfCoffeContainter2, 1000, 'amoutOfCoffeContainter1 has enough coffe in container2 when calling checkIfContainer2HasEnoughCoffee else its getting low');
 
-        myMachine.checkIfContainer3HasEnoughCoffee(5000);
+        myMachine.fillCoffeeContainer3(5000);
+        myMachine.checkIfContainer3HasEnoughCoffee(500);
         assert.isAtLeast(myMachine.amoutOfCoffeContainter3, 1000, 'amoutOfCoffeContainter3 has enough coffe in container3 when calling checkIfContainer2HasEnoughCoffee else its getting low');
     });
     //Scenario: coffee machine scales/weighs for blender ends
@@ -189,19 +192,33 @@ module.exports = function () {
 
     //Scenario: amount of ingrediens per blackCoffee start
 
-    this.Given(/^that the machine needs coffe recepie$/, function () {
-        myMachine.checkIfCoffeMachineHasRecepies();
-        assert.strictEqual(myMachine.coffeeRecepie1, true, "expect that coffeeRecepie1 is true when calling checkIfCoffeMachineHasRecepies");
-        assert.strictEqual(myMachine.coffeeRecepie2, true, "expect that coffeeRecepie2 is true when calling checkIfCoffeMachineHasRecepies");
-        assert.strictEqual(myMachine.coffeeRecepie3, true, "expect that coffeeRecepie3 is true when calling checkIfCoffeMachineHasRecepies");
+    this.Given(/^that ingrediens excists$/, function () {
+        myMachine.fillCoffeeContainer1(5000);
+        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+
+        myMachine.fillCoffeeContainer2(5000);
+        assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+
+        myMachine.fillCoffeeContainer3(5000);
+        assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+       
+        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+
+        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+
+        myMachine.ingredientsWeLookedForAreFound();
+        assert.strictEqual(myMachine.ingredientsFound, true, "when above stages are done, all ingredients are found wich makes this true");
     });
 
-    this.When(/^the machine wants to make coffee check ingredients$/, function () {
-
+    this.When(/^when ingrediens excistens are confirmed$/, function () {
+        myMachine.confirmIngredientsAreFound();
+        assert.strictEqual(myMachine.confirmation, true, "confirms if ingredients are found");
     });
 
-    this.Then(/^select correct amount of ingrediens for black coffe check ingredients$/, function () {
-
+    this.Then(/^check if there is enough for a cup black coffee$/, function () {
+        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
     });
     //Scenario: amount of ingrediens per blackCoffee end
+
+    
 }
