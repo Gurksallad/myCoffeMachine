@@ -3,24 +3,29 @@ Feature: coffe machine inner basics
     three different types of coffee, clean myself, display my functions 
     and produce coffee for the buyer.
 
-Scenario: basic functions for the coffe machine to work
+Scenario: check the basic functions for the coffe machine to work
   Given that the machine is plugged in 
   And the water is available
   And the waste is available
-  When the machine is has power
-  Then press start "button"
-  And the machine is on
+  When the machine has power
+  Then press the start "button" to start the machine
+  And machine started
 
-Scenario: coffee machine coolers-functions
-  Given that the coffee machines fan is connected
-  And that the cooler for the milk is connected
-  And that the cooler thermometer is connected to cooler
-  When machine is started
+Scenario: check the coffee machine coolers-functions
+  Given that the coffe machine fan has power
+  And that the cooler for the milk has power
+  And that the coooler thermometer is connected to the cooler
+  When the machine has power
   Then check if the fan is on
-  And that the cooler is on
-  And the temperature is at most 7 degrees
+  And that the milk cooler is on
+  And the check the cooler temperature
   
-Scenario: coffee machine scales/weighs for blender
+Scenario: check the coffee machine scales/weighs for the coffee machine
+  Given that the machine is plugged in
+  And that the scales/weighs have power
+  When the scales/weighs weigh the amount of coffe
+  And get the machine will return the amount of coffee that is inside
+  Then return a warning when about to run low on coffee
 
 Scenario: coffee machine blenders
 

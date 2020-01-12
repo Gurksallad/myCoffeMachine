@@ -8,11 +8,18 @@ class CoffeeMachine {
       this.connectedToPower = false;
       this.connectedToWater = false;
       this.connectedToWaste = false;
-      this.coffeMachineFan = false;
+
+      this.coffeMachineFanPowerOn = false;
+      this.coffeFanIsOn = true;
+
       this.coolerForMilk = false;
+      this.coolerPowerOn = false;
       this.coolerForMilkTempOk = false;
       this.milkCoolerTempOn = false;
+
       this.machineIsOn = false;
+
+      this.generalMachineThermometer = false;
 
       //amount of coffe beans in g
       this.amoutOfCoffeContainter1 = 0;
@@ -42,7 +49,7 @@ class CoffeeMachine {
       this.coffeeTypeLatte = false;
       this.coffeeTypeMocha = false;
       
-      this.milkCoolerTemp = 0;
+      this.maxMilkCoolerTemp = 6;
       this.waterTrayScaleWeigh = 0;
 
 
@@ -62,22 +69,32 @@ class CoffeeMachine {
       }
     }
 
-    machineFanOn(){
-      if(this.connectedToPower == true){
-        this.coffeMachineFan = true;
+    pressStartButton() {
+      if(this.connectedToPower == true) {
+        this.machineIsOn = true;
       }
     }
 
-    milkCoolerAndTemp(temp){
+    machineFanConnected(){
+      if(this.connectedToPower == true){
+        this.coffeFanIsOn = true;
+        this.coffeMachineFanPowerOn = true;
+      }
+    }
+
+    milkCoolerChecker(){
       if(this.connectedToPower == true){
         this.coolerForMilk = true;
+        this.coolerPowerOn = true;
         this.milkCoolerTempOn = true;
-        if(this.coolerForMilk == true){
-          this.milkCoolerTemp += temp;
-          if(this.milkCoolerTemp <= temp){
-            this.coolerForMilkTempOk = true;
-          }
-        }
+      }
+    }
+
+    checkMilkCoolerTemp(temp){
+      if(this.coolerForMilkTempOk <= temp){
+        return this.coolerForMilkTempOk = true;
+      }else{
+        return this.coolerForMilkTempOk;
       }
     }
 
