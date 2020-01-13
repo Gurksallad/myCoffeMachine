@@ -1,6 +1,6 @@
 [
   {
-    "description": "    As a coffee buyer i want a machine that can produce \n    three types of different coffees\n    that i can put a 5kr,10kr coin into aswell as bliping\n    my creditcard for 10,15kr to pay for my coffee.",
+    "description": "    As a coffee buyer i want to be able to pay the machine\n    with 5kr coins and 10kr coins\n    Except coins i want to be able to pay by bliping my creditcard\n    to pay for my coffee to then recive my coffee",
     "elements": [
       {
         "id": "coffe-machine-payment-options;",
@@ -130,7 +130,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2493241501
+              "duration": 2420938600
             },
             "hidden": true,
             "match": {
@@ -269,7 +269,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1554841700
+              "duration": 1537033101
             },
             "hidden": true,
             "match": {
@@ -408,7 +408,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2038886300
+              "duration": 1541638100
             },
             "hidden": true,
             "match": {
@@ -547,7 +547,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1828712301
+              "duration": 1817103400
             },
             "hidden": true,
             "match": {
@@ -686,7 +686,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2038881500
+              "duration": 2071447501
             },
             "hidden": true,
             "match": {
@@ -825,7 +825,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2036200899
+              "duration": 1538712200
             },
             "hidden": true,
             "match": {
@@ -964,7 +964,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1823958101
+              "duration": 1812661301
             },
             "hidden": true,
             "match": {
@@ -1103,7 +1103,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2042391500
+              "duration": 1534567799
             },
             "hidden": true,
             "match": {
@@ -1242,7 +1242,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1538988200
+              "duration": 1533826800
             },
             "hidden": true,
             "match": {
@@ -1381,7 +1381,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1811441600
+              "duration": 1540115699
             },
             "hidden": true,
             "match": {
@@ -1520,7 +1520,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2038082300
+              "duration": 1810277799
             },
             "hidden": true,
             "match": {
@@ -1554,7 +1554,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 566800
+              "duration": 590900
             },
             "line": 7,
             "match": {
@@ -1567,7 +1567,7 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 145300
+              "duration": 150899
             },
             "line": 8,
             "match": {
@@ -1580,7 +1580,7 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 258200
+              "duration": 168400
             },
             "line": 9,
             "match": {
@@ -1593,7 +1593,7 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 167500
+              "duration": 109200
             },
             "line": 10,
             "match": {
@@ -1606,7 +1606,7 @@
             "name": "press the start \"button\" to start the machine",
             "result": {
               "status": "passed",
-              "duration": 131400
+              "duration": 101699
             },
             "line": 11,
             "match": {
@@ -1619,7 +1619,7 @@
             "name": "machine started",
             "result": {
               "status": "passed",
-              "duration": 72199
+              "duration": 89600
             },
             "line": 12,
             "match": {
@@ -1631,7 +1631,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2042202501
+              "duration": 2036589399
             },
             "hidden": true,
             "match": {
@@ -1654,7 +1654,7 @@
             "name": "that the coffe machine fan has power",
             "result": {
               "status": "passed",
-              "duration": 149600
+              "duration": 126600
             },
             "line": 15,
             "match": {
@@ -1667,7 +1667,7 @@
             "name": "that the cooler for the milk has power",
             "result": {
               "status": "passed",
-              "duration": 144000
+              "duration": 146800
             },
             "line": 16,
             "match": {
@@ -1680,7 +1680,7 @@
             "name": "that the coooler thermometer is connected to the cooler",
             "result": {
               "status": "passed",
-              "duration": 106700
+              "duration": 189000
             },
             "line": 17,
             "match": {
@@ -1693,7 +1693,7 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 54400
+              "duration": 60800
             },
             "line": 18,
             "match": {
@@ -1706,7 +1706,7 @@
             "name": "check if the fan is on",
             "result": {
               "status": "passed",
-              "duration": 111801
+              "duration": 194000
             },
             "line": 19,
             "match": {
@@ -1719,7 +1719,7 @@
             "name": "that the milk cooler is on",
             "result": {
               "status": "passed",
-              "duration": 197400
+              "duration": 78500
             },
             "line": 20,
             "match": {
@@ -1732,7 +1732,7 @@
             "name": "the check the cooler temperature",
             "result": {
               "status": "passed",
-              "duration": 238000
+              "duration": 169600
             },
             "line": 21,
             "match": {
@@ -1744,7 +1744,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2317649201
+              "duration": 1540336400
             },
             "hidden": true,
             "match": {
@@ -1767,7 +1767,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 69200
+              "duration": 75700
             },
             "line": 24,
             "match": {
@@ -1780,7 +1780,7 @@
             "name": "that the scales/weighs have power",
             "result": {
               "status": "passed",
-              "duration": 195300
+              "duration": 196400
             },
             "line": 25,
             "match": {
@@ -1793,7 +1793,7 @@
             "name": "the scales/weighs have power weigh the amount of coffe in the containers",
             "result": {
               "status": "passed",
-              "duration": 249399
+              "duration": 209299
             },
             "line": 26,
             "match": {
@@ -1806,7 +1806,7 @@
             "name": "get the machine to return the amount of coffee that is inside containers",
             "result": {
               "status": "passed",
-              "duration": 173900
+              "duration": 97900
             },
             "line": 27,
             "match": {
@@ -1819,7 +1819,7 @@
             "name": "return a warning when about to run low on coffee",
             "result": {
               "status": "passed",
-              "duration": 305301
+              "duration": 244901
             },
             "line": 28,
             "match": {
@@ -1831,7 +1831,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2038824501
+              "duration": 1804792701
             },
             "hidden": true,
             "match": {
@@ -1854,7 +1854,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 50800
+              "duration": 50000
             },
             "line": 31,
             "match": {
@@ -1867,7 +1867,7 @@
             "name": "that the bean grinders have power",
             "result": {
               "status": "passed",
-              "duration": 169400
+              "duration": 183100
             },
             "line": 32,
             "match": {
@@ -1880,7 +1880,7 @@
             "name": "bean grinder are connected to containers",
             "result": {
               "status": "passed",
-              "duration": 155200
+              "duration": 175100
             },
             "line": 33,
             "match": {
@@ -1893,7 +1893,7 @@
             "name": "enable/dissable grinders",
             "result": {
               "status": "passed",
-              "duration": 60600
+              "duration": 67699
             },
             "line": 34,
             "match": {
@@ -1905,7 +1905,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2047643199
+              "duration": 2047904700
             },
             "hidden": true,
             "match": {
@@ -1928,7 +1928,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 67200
+              "duration": 59400
             },
             "line": 37,
             "match": {
@@ -1941,7 +1941,7 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 53600
+              "duration": 61900
             },
             "line": 38,
             "match": {
@@ -1954,7 +1954,7 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 51201
+              "duration": 60499
             },
             "line": 39,
             "match": {
@@ -1967,7 +1967,7 @@
             "name": "watertray scale has power",
             "result": {
               "status": "passed",
-              "duration": 150800
+              "duration": 196500
             },
             "line": 40,
             "match": {
@@ -1980,7 +1980,7 @@
             "name": "if watertray weighs a certain amount of waste",
             "result": {
               "status": "passed",
-              "duration": 287600
+              "duration": 217000
             },
             "line": 41,
             "match": {
@@ -1993,7 +1993,7 @@
             "name": "find out if it needs to flush",
             "result": {
               "status": "passed",
-              "duration": 150900
+              "duration": 103199
             },
             "line": 42,
             "match": {
@@ -2005,7 +2005,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1819935600
+              "duration": 1557468100
             },
             "hidden": true,
             "match": {
@@ -2028,7 +2028,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 54300
+              "duration": 53501
             },
             "line": 45,
             "match": {
@@ -2041,7 +2041,7 @@
             "name": "milk scale is on",
             "result": {
               "status": "passed",
-              "duration": 149299
+              "duration": 144600
             },
             "line": 46,
             "match": {
@@ -2054,7 +2054,7 @@
             "name": "weigh if there is any milk",
             "result": {
               "status": "passed",
-              "duration": 240700
+              "duration": 288600
             },
             "line": 47,
             "match": {
@@ -2067,7 +2067,7 @@
             "name": "warn if amount of milk is getting low",
             "result": {
               "status": "passed",
-              "duration": 135199
+              "duration": 156099
             },
             "line": 48,
             "match": {
@@ -2079,7 +2079,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1535673500
+              "duration": 1813883000
             },
             "hidden": true,
             "match": {
@@ -2102,7 +2102,7 @@
             "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 281900
+              "duration": 213200
             },
             "line": 51,
             "match": {
@@ -2115,7 +2115,7 @@
             "name": "when ingrediens excistens are confirmed",
             "result": {
               "status": "passed",
-              "duration": 160999
+              "duration": 141900
             },
             "line": 52,
             "match": {
@@ -2128,7 +2128,7 @@
             "name": "check if there is enough for a cup black coffee",
             "result": {
               "status": "passed",
-              "duration": 85300
+              "duration": 118500
             },
             "line": 53,
             "match": {
@@ -2140,7 +2140,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2037479800
+              "duration": 2036031499
             },
             "hidden": true,
             "match": {
@@ -2163,7 +2163,7 @@
             "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 72101
+              "duration": 73500
             },
             "line": 56,
             "match": {
@@ -2176,7 +2176,7 @@
             "name": "when ingrediens excistens are confirmed",
             "result": {
               "status": "passed",
-              "duration": 39099
+              "duration": 48199
             },
             "line": 57,
             "match": {
@@ -2189,7 +2189,7 @@
             "name": "check if there is enough for a cup Mocha",
             "result": {
               "status": "passed",
-              "duration": 109700
+              "duration": 110900
             },
             "line": 58,
             "match": {
@@ -2201,7 +2201,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1836960900
+              "duration": 1541222801
             },
             "hidden": true,
             "match": {
@@ -2224,7 +2224,7 @@
             "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 78801
+              "duration": 345999
             },
             "line": 61,
             "match": {
@@ -2237,7 +2237,7 @@
             "name": "when ingrediens excistens are confirmed",
             "result": {
               "status": "passed",
-              "duration": 55699
+              "duration": 63200
             },
             "line": 62,
             "match": {
@@ -2250,7 +2250,7 @@
             "name": "check if there is enough for a cup caffe Latte",
             "result": {
               "status": "passed",
-              "duration": 128900
+              "duration": 116599
             },
             "line": 63,
             "match": {
@@ -2262,7 +2262,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2075993599
+              "duration": 1819887900
             },
             "hidden": true,
             "match": {
