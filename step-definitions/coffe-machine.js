@@ -220,5 +220,20 @@ module.exports = function () {
     });
     //Scenario: amount of ingrediens per blackCoffee end
 
-    
+    //Scenario: amount of ingrediens per MochaCoffee start
+
+    this.Then(/^check if there is enough for a cup Mocha$/, function () {
+        assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+
+        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(), true, "if container is filled with 5l of coffe there is enough for a cup");
+    });
+    //Scenario: amount of ingrediens per MochaCoffee end
+
+    //scenario amount of ingrediens per CaffeLatte start
+    this.Then(/^check if there is enough for a cup caffe Latte$/, function () {
+        assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+
+        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(), true, "if container is filled with 5l of coffe there is enough for a cup");
+    });
+    //scenario amount of ingrediens per CaffeLatte end
 }

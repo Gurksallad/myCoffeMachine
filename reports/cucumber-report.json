@@ -1,5 +1,1545 @@
 [
   {
+    "description": "    As a coffee buyer i want a machine that can produce \n    three types of different coffees\n    that i can put a 5kr,10kr coin into aswell as bliping\n    my creditcard for 10,15kr to pay for my coffee.",
+    "elements": [
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a 10 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2493241501
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a 10 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1554841700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a 5 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2038886300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a \"annat\" kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1828712301
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a 10 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a \"annat\" kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2038881500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a <money1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money2> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money3> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip 10 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2036200899
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a <money1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money2> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money3> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip 15 kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1823958101
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a <money1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money2> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money3> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip \"annat\" kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options1> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options2> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 <options3> buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2042391500
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a <money1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money2> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money3> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 blackCoffe buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 denied buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 denied buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1538988200
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a <money1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money2> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money3> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 denied buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 Mocha buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 denied buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1811441600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options;",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "has a display screen to show these options",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the display screen has power show 3 different options of coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "when the user click/choose one option ask for insert a <money1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money2> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a <money3> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user can also use blip <cardMoney1> kr",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "display the chosen coffee button dispense button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 denied buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 denied buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses one of the chosen 3 Latte buttons",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "show the dispense coffee \"button\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recives the coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2038082300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "coffe-machine-payment-options",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "coffe machine payment options",
+    "tags": [],
+    "uri": "C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature"
+  },
+  {
     "description": "    As a coffee machine i want to be able to make\n    three different types of coffee, clean myself, display my functions \n    and produce coffee for the buyer.",
     "elements": [
       {
@@ -14,7 +1554,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 659000
+              "duration": 566800
             },
             "line": 7,
             "match": {
@@ -27,7 +1567,7 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 112500
+              "duration": 145300
             },
             "line": 8,
             "match": {
@@ -40,7 +1580,7 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 144699
+              "duration": 258200
             },
             "line": 9,
             "match": {
@@ -53,7 +1593,7 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 137000
+              "duration": 167500
             },
             "line": 10,
             "match": {
@@ -66,7 +1606,7 @@
             "name": "press the start \"button\" to start the machine",
             "result": {
               "status": "passed",
-              "duration": 143100
+              "duration": 131400
             },
             "line": 11,
             "match": {
@@ -79,7 +1619,7 @@
             "name": "machine started",
             "result": {
               "status": "passed",
-              "duration": 119000
+              "duration": 72199
             },
             "line": 12,
             "match": {
@@ -91,7 +1631,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1626062900
+              "duration": 2042202501
             },
             "hidden": true,
             "match": {
@@ -114,7 +1654,7 @@
             "name": "that the coffe machine fan has power",
             "result": {
               "status": "passed",
-              "duration": 177299
+              "duration": 149600
             },
             "line": 15,
             "match": {
@@ -127,7 +1667,7 @@
             "name": "that the cooler for the milk has power",
             "result": {
               "status": "passed",
-              "duration": 161300
+              "duration": 144000
             },
             "line": 16,
             "match": {
@@ -140,7 +1680,7 @@
             "name": "that the coooler thermometer is connected to the cooler",
             "result": {
               "status": "passed",
-              "duration": 109800
+              "duration": 106700
             },
             "line": 17,
             "match": {
@@ -153,7 +1693,7 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 53000
+              "duration": 54400
             },
             "line": 18,
             "match": {
@@ -166,7 +1706,7 @@
             "name": "check if the fan is on",
             "result": {
               "status": "passed",
-              "duration": 102300
+              "duration": 111801
             },
             "line": 19,
             "match": {
@@ -179,7 +1719,7 @@
             "name": "that the milk cooler is on",
             "result": {
               "status": "passed",
-              "duration": 102400
+              "duration": 197400
             },
             "line": 20,
             "match": {
@@ -192,7 +1732,7 @@
             "name": "the check the cooler temperature",
             "result": {
               "status": "passed",
-              "duration": 184301
+              "duration": 238000
             },
             "line": 21,
             "match": {
@@ -204,7 +1744,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1534719000
+              "duration": 2317649201
             },
             "hidden": true,
             "match": {
@@ -227,7 +1767,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 64899
+              "duration": 69200
             },
             "line": 24,
             "match": {
@@ -240,7 +1780,7 @@
             "name": "that the scales/weighs have power",
             "result": {
               "status": "passed",
-              "duration": 183499
+              "duration": 195300
             },
             "line": 25,
             "match": {
@@ -253,7 +1793,7 @@
             "name": "the scales/weighs have power weigh the amount of coffe in the containers",
             "result": {
               "status": "passed",
-              "duration": 230200
+              "duration": 249399
             },
             "line": 26,
             "match": {
@@ -266,7 +1806,7 @@
             "name": "get the machine to return the amount of coffee that is inside containers",
             "result": {
               "status": "passed",
-              "duration": 112500
+              "duration": 173900
             },
             "line": 27,
             "match": {
@@ -279,7 +1819,7 @@
             "name": "return a warning when about to run low on coffee",
             "result": {
               "status": "passed",
-              "duration": 297300
+              "duration": 305301
             },
             "line": 28,
             "match": {
@@ -291,7 +1831,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1533539499
+              "duration": 2038824501
             },
             "hidden": true,
             "match": {
@@ -314,7 +1854,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 56100
+              "duration": 50800
             },
             "line": 31,
             "match": {
@@ -327,7 +1867,7 @@
             "name": "that the bean grinders have power",
             "result": {
               "status": "passed",
-              "duration": 164900
+              "duration": 169400
             },
             "line": 32,
             "match": {
@@ -340,7 +1880,7 @@
             "name": "bean grinder are connected to containers",
             "result": {
               "status": "passed",
-              "duration": 183400
+              "duration": 155200
             },
             "line": 33,
             "match": {
@@ -353,7 +1893,7 @@
             "name": "enable/dissable grinders",
             "result": {
               "status": "passed",
-              "duration": 64300
+              "duration": 60600
             },
             "line": 34,
             "match": {
@@ -365,7 +1905,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1543860601
+              "duration": 2047643199
             },
             "hidden": true,
             "match": {
@@ -388,7 +1928,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 90800
+              "duration": 67200
             },
             "line": 37,
             "match": {
@@ -414,7 +1954,7 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 72900
+              "duration": 51201
             },
             "line": 39,
             "match": {
@@ -427,7 +1967,7 @@
             "name": "watertray scale has power",
             "result": {
               "status": "passed",
-              "duration": 177200
+              "duration": 150800
             },
             "line": 40,
             "match": {
@@ -440,7 +1980,7 @@
             "name": "if watertray weighs a certain amount of waste",
             "result": {
               "status": "passed",
-              "duration": 315100
+              "duration": 287600
             },
             "line": 41,
             "match": {
@@ -453,7 +1993,7 @@
             "name": "find out if it needs to flush",
             "result": {
               "status": "passed",
-              "duration": 359200
+              "duration": 150900
             },
             "line": 42,
             "match": {
@@ -465,7 +2005,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2060522399
+              "duration": 1819935600
             },
             "hidden": true,
             "match": {
@@ -488,7 +2028,7 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 63600
+              "duration": 54300
             },
             "line": 45,
             "match": {
@@ -501,7 +2041,7 @@
             "name": "milk scale is on",
             "result": {
               "status": "passed",
-              "duration": 176200
+              "duration": 149299
             },
             "line": 46,
             "match": {
@@ -514,7 +2054,7 @@
             "name": "weigh if there is any milk",
             "result": {
               "status": "passed",
-              "duration": 288900
+              "duration": 240700
             },
             "line": 47,
             "match": {
@@ -527,7 +2067,7 @@
             "name": "warn if amount of milk is getting low",
             "result": {
               "status": "passed",
-              "duration": 142900
+              "duration": 135199
             },
             "line": 48,
             "match": {
@@ -539,7 +2079,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2047030800
+              "duration": 1535673500
             },
             "hidden": true,
             "match": {
@@ -562,7 +2102,7 @@
             "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 266699
+              "duration": 281900
             },
             "line": 51,
             "match": {
@@ -575,7 +2115,7 @@
             "name": "when ingrediens excistens are confirmed",
             "result": {
               "status": "passed",
-              "duration": 157199
+              "duration": 160999
             },
             "line": 52,
             "match": {
@@ -588,7 +2128,7 @@
             "name": "check if there is enough for a cup black coffee",
             "result": {
               "status": "passed",
-              "duration": 141100
+              "duration": 85300
             },
             "line": 53,
             "match": {
@@ -600,7 +2140,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2078208999
+              "duration": 2037479800
             },
             "hidden": true,
             "match": {
@@ -623,7 +2163,7 @@
             "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 114900
+              "duration": 72101
             },
             "line": 56,
             "match": {
@@ -636,7 +2176,7 @@
             "name": "when ingrediens excistens are confirmed",
             "result": {
               "status": "passed",
-              "duration": 67200
+              "duration": 39099
             },
             "line": 57,
             "match": {
@@ -648,16 +2188,20 @@
             "keyword": "Then ",
             "name": "check if there is enough for a cup Mocha",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 109700
             },
-            "line": 58
+            "line": 58,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:225"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1538563000
+              "duration": 1836960900
             },
             "hidden": true,
             "match": {
@@ -680,7 +2224,7 @@
             "name": "that ingrediens excists",
             "result": {
               "status": "passed",
-              "duration": 84800
+              "duration": 78801
             },
             "line": 61,
             "match": {
@@ -693,7 +2237,7 @@
             "name": "when ingrediens excistens are confirmed",
             "result": {
               "status": "passed",
-              "duration": 51300
+              "duration": 55699
             },
             "line": 62,
             "match": {
@@ -705,16 +2249,20 @@
             "keyword": "Then ",
             "name": "check if there is enough for a cup caffe Latte",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 128900
             },
-            "line": 63
+            "line": 63,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:233"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1571647000
+              "duration": 2075993599
             },
             "hidden": true,
             "match": {

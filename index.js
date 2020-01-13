@@ -223,7 +223,7 @@ checkIfGrindersAreConnectedToConatiners(){
   }
 }
 
-dissableAndEnableGrinders(){ //////////////////////////////////fix
+dissableAndEnableGrinders(){ ///////////////ifbuttonpressed///////////////////fix
   if(this.grinderPower1 == true){
     if(this.grinder1ConnectedToCointainer1 == true){
       if(this.coffeeTypeRegular == true){
