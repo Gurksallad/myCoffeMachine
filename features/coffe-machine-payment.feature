@@ -1,39 +1,39 @@
 Feature: coffe machine payment options
-    As a coffee buyer i want to be able to pay the machine
+    As a costumer i want to be able to pay the machine
     with 5kr coins and 10kr coins
-    Except coins i want to be able to pay by bliping my creditcard
-    to pay for my coffee to then recive my coffee
-Scenario Outline: 
-  Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha.
-  And has a display screen to show these options
-  When the display screen has power show 3 different options of coffee
-  And when the user click/choose one option ask for insert a <money1> kr
-  And the user inserts a <money2> kr 
-  And the user inserts a <money3> kr 
-  And the user can also use blip <cardMoney1> kr 
-  Then display the chosen coffee button dispense button  
-  And presses one of the chosen 3 <options1> buttons
-  And presses one of the chosen 3 <options2> buttons
-  And presses one of the chosen 3 <options3> buttons
-  And show the dispense coffee "button"
-  And the user recives the coffee
+    If i dont have any coins i want to be able to pay with
+    the blip function on my credit card
+
+Background: The machine is connected to power/water and waste and start button works
+  Given that the machine is plugged in 
+  And the water is available
+  And the waste is available
+  When the machine has power
+  Then press the start "button" to start the machine
+  And machine started
+ 
+  Scenario Outline: The customer pays with 5kr and 10kr coins for coffee
+    Given there is enough ingrediens for regular coffee
+    When the user inserts a <money1> kr coin
+    And the user inserts a <money2> kr coin
+    And the user inserts a <money3> kr coin
+    And the amount is enough for the coffee
+    Then presses the "dispense" button
+    And the user recieves the <coffee> that was paid for.
 
     Examples:
-      | money1 | money2 | money3 |
-      | 10     | 0      |0       |
-      | 10     | 5      |0       |
-      | 5      | 5      |5       |
-      |"annat" | 5      |5       |
-      |10      | "annat"|0       |
-
-    Examples:
-      |cardMoney1| 
-      |10|
-      |15|
-      |"annat"|
-
-    Examples:
-      | options1 | options2| options3|
-      |blackCoffe| denied  | denied  | 
-      |denied    | Mocha   | denied  | 
-      |denied    | denied  | Latte   | 
+    |money1 |money2 |money3 |coffee   |
+    |10     |5      |0      |"regular"|
+    |5      |5      |5      |"regular"|
+    |"annat"|5      |0      |"regular"|
+    |10     |5      |5      |"mocha"  |
+    |10     |10     |0      |"mocha"  |
+    |"annat"|10     |10     |"mocha"  |
+    |10     |5      |5      |"latte"  |
+    |10     |10     |0      |"latte"  |
+    |"annat"|10     |10     |"latte"  |
+    |5      |5      |0      |0        |
+    |10     |0      |0      |0        |
+    |"annat"|5      |5      |0        |
+    |"annat"|10     |0      |0        |
+    |"annat"|5      |0      |0        |

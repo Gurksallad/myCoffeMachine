@@ -3,7 +3,7 @@ let myMachine;
 let resultOfStartButton;
 module.exports = function () {
 
-//scenario basic functions for the coffe machine to work
+//scenario The machine is connected to power/water and waste and start button works
     this.Given(/^that the machine is plugged in$/, function (){
         myMachine = new CoffeeMachine();
         myMachine.pluggedInToPower();
@@ -38,7 +38,7 @@ module.exports = function () {
         myMachine.pressStartButton();
         assert.strictEqual(myMachine.machineIsOn, true, 'Expected the property machineIsOn to be true after calling the pressStartButton() method');
     });
-//scenario basic functions for the coffe machine to work
+//The machine is connected to power/water and waste and start button works end
 
 //scenario coffee machine coolers-functions starts
     this.Given(/^that the coffe machine fan has power$/, function () {
@@ -148,9 +148,14 @@ module.exports = function () {
 
     //Scenario: coffee machine waterTray functions starts 
 
-    this.When(/^watertray scale has power$/, function () {
+    this.Given(/^that watertray scale has power$/, function () {
         myMachine.enableWaterFlushingFunction();
         assert.strictEqual(myMachine.waterTrayScalePower, true, "Expect waterTrayPower to have power when calling the enableWaterFlushingFunction() method");
+    });
+
+    this.When(/^watertray scale is on$/, function () {
+        myMachine.enableWaterFlushingFunction();
+        assert.strictEqual(myMachine.waterScaleOn, true, "Expect waterTrayPower to be on when calling the enableWaterFlushingFunction() method");
     });
 
     this.Then(/^if watertray weighs a certain amount of waste$/, function () {     
@@ -169,6 +174,11 @@ module.exports = function () {
     //Scenario: coffee machine waterTray functions ends
 
     //Scenario: scale/weigh for milk for the coffee types start
+
+    this.Given(/^that milk scale has power$/, function () {
+        myMachine.checkIfmilkScaleHasPower();
+        assert.strictEqual(myMachine.scaleForMilkHasPower, true, "expect that scaleForMilkHasPower is true if calling the checkIfmilkScaleHasPower() method");
+    });
 
     this.When(/^milk scale is on$/, function () {
         myMachine.checkIfMilkScaleIsOn();
@@ -201,10 +211,11 @@ module.exports = function () {
 
         myMachine.fillCoffeeContainer3(5000);
         assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
-       
-        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(), true, "if container is filled with 5kg of coffe there is enough for a cup");
 
-        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+        myMachine.weighAmountOfMilk(5000);
+        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(), true, "if container is filled with 5l of milk there is enough for a cup");
+
+        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(), true, "if container is filled with 5l of milk there is enough for a cup");
 
         myMachine.ingredientsWeLookedForAreFound();
         assert.strictEqual(myMachine.ingredientsFound, true, "when above stages are done, all ingredients are found wich makes this true");

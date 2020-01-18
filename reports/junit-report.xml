@@ -1,777 +1,523 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a 10 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 0 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 0 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a 10 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 5 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 0 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a 5 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 5 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 5 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &quot;annat&quot; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 5 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 5 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a 10 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &quot;annat&quot; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a 0 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &lt;money1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money2&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money3&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip 10 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &lt;money1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money2&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money3&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip 15 kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &lt;money1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money2&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money3&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &quot;annat&quot; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options1&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options2&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 &lt;options3&gt; buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &lt;money1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money2&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money3&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 blackCoffe buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 denied buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 denied buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &lt;money1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money2&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money3&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 denied buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 Mocha buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 denied buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-payment-options;" tests="13" failures="0" skipped="13">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine has 3 options of coffes: Black coffee, caffe latte and mocha." classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And has a display screen to show these options" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When the display screen has power show 3 different options of coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And when the user click/choose one option ask for insert a &lt;money1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money2&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user inserts a &lt;money3&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user can also use blip &lt;cardMoney1&gt; kr" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then display the chosen coffee button dispense button" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 denied buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 denied buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And presses one of the chosen 3 Latte buttons" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And show the dispense coffee &quot;button&quot;" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And the user recives the coffee" classname="coffe-machine-payment-options;">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" tests="6" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" tests="13" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0005909">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0006249">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.000150899">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001363">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001684">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000167201">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0001092">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001476">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.000101699">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000175301">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-basic-functions-for-the-coffe-machine-to-work" time="0.0000896">
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001582">
+        </testcase>
+        <testcase name="Given that the coffe machine fan has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000140099">
+        </testcase>
+        <testcase name="And that the cooler for the milk has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000140701">
+        </testcase>
+        <testcase name="And that the coooler thermometer is connected to the cooler" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000087401">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000068099">
+        </testcase>
+        <testcase name="Then check if the fan is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001291">
+        </testcase>
+        <testcase name="And that the milk cooler is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0005444">
+        </testcase>
+        <testcase name="And the check the cooler temperature" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000197701">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" tests="7" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the coffe machine fan has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001266">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000636">
         </testcase>
-        <testcase name="And that the cooler for the milk has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001468">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000569">
         </testcase>
-        <testcase name="And that the coooler thermometer is connected to the cooler" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000189">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000076899">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0000608">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000053101">
         </testcase>
-        <testcase name="Then check if the fan is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000194">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000328">
         </testcase>
-        <testcase name="And that the milk cooler is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0000785">
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000046701">
         </testcase>
-        <testcase name="And the check the cooler temperature" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001696">
+        <testcase name="Given that the scales/weighs have power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001357">
+        </testcase>
+        <testcase name="When the scales/weighs have power weigh the amount of coffe in the containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000213201">
+        </testcase>
+        <testcase name="And get the machine to return the amount of coffee that is inside containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001206">
+        </testcase>
+        <testcase name="Then return a warning when about to run low on coffee" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0002562">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" tests="5" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-bean-grinder" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000757">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000592">
         </testcase>
-        <testcase name="And that the scales/weighs have power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001964">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000577">
         </testcase>
-        <testcase name="When the scales/weighs have power weigh the amount of coffe in the containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000209299">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000061701">
         </testcase>
-        <testcase name="And get the machine to return the amount of coffee that is inside containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000979">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000060701">
         </testcase>
-        <testcase name="Then return a warning when about to run low on coffee" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000244901">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000033999">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000589">
+        </testcase>
+        <testcase name="Given that the bean grinders have power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000154001">
+        </testcase>
+        <testcase name="When bean grinder are connected to containers" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0001332">
+        </testcase>
+        <testcase name="Then enable/dissable grinders" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000517">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-bean-grinder" tests="4" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-watertray-functions" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.00005">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000638">
         </testcase>
-        <testcase name="And that the bean grinders have power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0001831">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000458">
         </testcase>
-        <testcase name="When bean grinder are connected to containers" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0001751">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000611">
         </testcase>
-        <testcase name="Then enable/dissable grinders" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000067699">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.000056201">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000452">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000455">
+        </testcase>
+        <testcase name="Given that watertray scale has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001488">
+        </testcase>
+        <testcase name="When watertray scale is on" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000637">
+        </testcase>
+        <testcase name="Then if watertray weighs a certain amount of waste" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0002133">
+        </testcase>
+        <testcase name="And find out if it needs to flush" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001623">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-watertray-functions" tests="6" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" tests="10" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000594">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000795">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000619">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000554">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.000060499">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000566">
         </testcase>
-        <testcase name="When watertray scale has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001965">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000061899">
         </testcase>
-        <testcase name="Then if watertray weighs a certain amount of waste" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.000217">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000327">
         </testcase>
-        <testcase name="And find out if it needs to flush" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.000103199">
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000053">
+        </testcase>
+        <testcase name="Given that milk scale has power" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000129101">
+        </testcase>
+        <testcase name="When milk scale is on" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000115901">
+        </testcase>
+        <testcase name="Then weigh if there is any milk" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0002635">
+        </testcase>
+        <testcase name="And warn if amount of milk is getting low" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000158899">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" tests="4" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000053501">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000088499">
         </testcase>
-        <testcase name="When milk scale is on" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0001446">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0000542">
         </testcase>
-        <testcase name="Then weigh if there is any milk" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0002886">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000048301">
         </testcase>
-        <testcase name="And warn if amount of milk is getting low" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000156099">
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001048">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0000422">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0000579">
+        </testcase>
+        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000234">
+        </testcase>
+        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001522">
+        </testcase>
+        <testcase name="Then check if there is enough for a cup black coffee" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000133399">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" tests="3" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0002132">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000884">
         </testcase>
-        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001419">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000528">
         </testcase>
-        <testcase name="Then check if there is enough for a cup black coffee" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001185">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000516">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000059701">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000328">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000049101">
+        </testcase>
+        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000846">
+        </testcase>
+        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000056301">
+        </testcase>
+        <testcase name="Then check if there is enough for a cup Mocha" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000112401">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" tests="3" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" tests="9" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000735">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000755">
         </testcase>
-        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000048199">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000533">
         </testcase>
-        <testcase name="Then check if there is enough for a cup Mocha" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0001109">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000081801">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000058601">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000444">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000562">
+        </testcase>
+        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000864">
+        </testcase>
+        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000050699">
+        </testcase>
+        <testcase name="Then check if there is enough for a cup caffe Latte" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000186599">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" tests="3" failures="0" skipped="0">
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-water-boiler" tests="10" failures="0" skipped="4">
         <properties>
             <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
             </property>
         </properties>
-        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000345999">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000627">
         </testcase>
-        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000632">
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000596">
         </testcase>
-        <testcase name="Then check if there is enough for a cup caffe Latte" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000116599">
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000435">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000381">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000307">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000377">
+        </testcase>
+        <testcase name="Given that the water boiler has power" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And is connected to the blender" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When coffee is orderd start boiling" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then empty the water into the blender" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-milk-warmer" tests="10" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000048599">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.0000458">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000078801">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000062099">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.0000397">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000055601">
+        </testcase>
+        <testcase name="Given that the water boiler has power" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And is connected to the blender" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When coffee is orderd start warming the milk" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then empty the milk into the blender" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" tests="9" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.0000509">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.000065501">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.000050701">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.000042601">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.0000404">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.0000514">
+        </testcase>
+        <testcase name="Given that the coffee of choise is made" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When the blender is full with the finished mix" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then dispense the coffee from propper outlet" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;when-a-coffee-is-chosen" tests="10" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000443">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000467">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000493">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.000039001">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000334">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.000043001">
+        </testcase>
+        <testcase name="Given that the displayscreen has power" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When a choise is made" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then dissable the others" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And add enable return button" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" tests="11" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0001393">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000914">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000638">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000411">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000524">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.000035799">
+        </testcase>
+        <testcase name="Given the displayscreen has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When when the displayscreen is on" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then display the different coffees" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And display their prices" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And enable the coffee types buttons" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" tests="11" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000515">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.000054899">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000445">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000738">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000343">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000429">
+        </testcase>
+        <testcase name="Given the black coffee choise is pressed" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When pressed display price again" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And wait for payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then confirm payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And enable dispense button" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" tests="11" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000109401">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.0000449">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000075701">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000049799">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.0000267">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000039901">
+        </testcase>
+        <testcase name="Given the mocha coffe choise is pressed" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When pressed display price again" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And wait for payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then confirm payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And enable dispense button" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" tests="11" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.0000565">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000052299">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000069401">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000036901">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000027299">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.0000454">
+        </testcase>
+        <testcase name="Given the coffee latte choise is pressed" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When pressed display price again" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And wait for payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then confirm payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And enable dispense button" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" tests="9" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.000048301">
+        </testcase>
+        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000498">
+        </testcase>
+        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000369">
+        </testcase>
+        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000383">
+        </testcase>
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000341">
+        </testcase>
+        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.000052801">
+        </testcase>
+        <testcase name="Given that the displayscreen has power" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When displayscreen is on" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then show how much coffee is left per coffee type" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>

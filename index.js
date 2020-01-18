@@ -40,11 +40,13 @@ class CoffeeMachine {
       this.grinderOn3 = false;
       
       this.waterTrayScalePower = false;
+      this.waterScaleOn = false;
       this.waterFlushingFunction = false;
       this.timeToCleanFlush = false;
       this.trayIsFlushed = false;
       
       this.milkScaleOn = false;
+      this.scaleForMilkHasPower = false;
 
       //amount of coffe beans in g
       this.amoutOfCoffeContainter1 = 0;
@@ -262,6 +264,7 @@ enableWaterFlushingFunction(){
       if(this.connectedToWater == true){
         if(this.waterTrayScalePower == true){
           this.waterFlushingFunction = true;
+          this.waterScaleOn = true;
         }
       }
     }
@@ -290,8 +293,14 @@ startFlushCleaning(){
 //scenario 5 end
 
 //scenario 6 start
-checkIfMilkScaleIsOn(){
+checkIfmilkScaleHasPower(){
   if(this.connectedToPower == true){
+    this.scaleForMilkHasPower = true;
+  }
+}
+
+checkIfMilkScaleIsOn(){
+  if(this.scaleForMilkHasPower == true){
     this.milkScaleOn = true;
   }
 }
