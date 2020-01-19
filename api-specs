@@ -1,68 +1,137 @@
 ### Properties
 
-mochaOutlet()
-cafeLatteOutlet()
-blackCoffeOutlet()
+pluggedInToPower(boolean)
+- if the machine has power
 
-coffeMachineFan(boolean)
-amoutOfCoffeContainter1()
-amoutOfCoffeContainter2()
-amoutOfCoffeContainter3()
-scaleForCoffee()
+pluggedInToWater(boolean)
+- if the machine has water
 
-beanBlenderForMocha()
-beanBlenderForLatte()
-beanBlenderForblackCoffee()
+pluggedInToWaste(boolean)
+- if the machine is connected to waste
 
-connectedToWater(boolean)
-conectedToWaste(boolean)
-connectedToPower(boolean)
+pressStartButton(boolean)
+- if the start button is pressed
 
-boilWater()
-milkFoamer()
-amountOfMilkStored()
-coolerForMilk()
-checkAmountOfMilk
+machineFanConnected(boolean)
+- if power is on then coffee machines fan has power and is on
+milkCoolerChecker(boolean)
 
-cleanCycleSetting(boolean)
-waterTray()
-waterTrayScale()
-removalOfCleanCycleWater()
+- if power is on then milk cooler has power, is on and the thermometer for cooler is on
 
+checkMilkCoolerTemp(boolean)
+- checks if temperature is OK or NOT and returns the value of the temp
 
+checkIfScalersHavePower(boolean)
+- checks if power is on, if power is on then the scales have power
 
-costForCoffee()
+scaleWeighCoffeeInContainers1(boolean)
+- checks if scales have power and if they have scales are on, if scales are on then return the weight
+
+scaleWeighCoffeeInContainers2(boolean)
+- checks if scales have power and if they have scales are on, if scales are on then return the weight
+
+scaleWeighCoffeeInContainers3(boolean)
+- checks if scales have power and if they have scales are on, if scales are on then return the weight
+
+checkIfBeanGrindersHavePower(boolean)
+- if machine is connected to power then coffee bean grinders have power
+
+checkIfGrindersAreConnectedToConatiners(boolean)
+- if grinders are on they are also connected to their containers
+
+dissableAndEnableGrinders(boolean)
+- checks if power is on and grinders are connected to their containers
+if they are set coffee type to true and if coffee type is true then grinders are on if not its off.
+
+enableWaterFlushingFunction(boolean)
+- checks if function has power, if it has power scale is ON.
+- checks if function has water, if it has water check if power is ON
+if power is on then function works and the scale is on
+
+startFlushCleaning(boolean)
+- if called its true
+- check if its actually true and if it is then flush tray
+
+checkIfmilkScaleHasPower(boolean)
+- check if machine has power and if it does then scale has power
+
+checkIfMilkScaleIsOn(boolean)
+- check if scale has power then scale is ON
+
+checkIfEnoughBlackCoffeeForACupnumber()
+- checks if amount of coffee is >= amount requierd
+
+checkIfEnoughMochaForACUP(number)
+- checks if amount of coffee is >= amount requierd
+
+checkIfEnoughLatteCoffeForACup(number)
+- checks if amount of coffee is >= amount requierd 
+
+checkAmountOfMilkForMocha(number)
+- checks if amount of milk is >= amount requierd
+
+checkAmountOfMilkForLatte(number)
+- checks if amount of milk is >= amount requierd
+
+ingredientsWeLookedForAreFound(boolean)
+- if the amounts already exists set ingredients found to true
+
+confirmIngredientsAreFound(boolean)
+- if ingredients are found confirm this
+
+coffeeButtons(boolean)
+- activate the buttons if previous steps are true
+
+coffeeButtonPress(boolean)
+- check if button is activated and set the buttons to pressed
+
+pluggedInToInternet(boolean)
+- if machine has power then it also has internet
 
 ### Methods
-ammountOfCoffeDisplay()
 
-espressoBtn()
+fillCoffeeContainer1(amount)
+- fills container with a certain amount
 
-cafeLatteBtn()
+fillCoffeeContainer2(amount)
+- fills container with a certain amount
 
-blackCoffeeBtn()
+fillCoffeeContainer3(amount)
+- fills container with a certain amount
 
-chooseCoffeDisplay
+checkIfContainer1HasEnoughCoffee(amount)
+- checks if there is enough coffee filled and will return if it is or not
 
-insertMoney(amount) //coins
+checkIfContainer2HasEnoughCoffee(amount)
+- checks if there is enough coffee filled and will return if it is or not
 
-cardBlip(amount)
+checkIfContainer3HasEnoughCoffee(amount)
+- checks if there is enough coffee filled and will return if it is or not
 
+checkIfWaterTrayIsEmpty(amount)
+- fills the tray with water to then check if watertray weighs enough or doesnt to call flushing function
 
-G-krav
-    Du ska ha beskrivit kaffemaskinens funktionalitet och utseende på ett förståeligt sätt.
-    Du sak ha skrivit en saklig api-dokumentation.
-    Din kaffemaskin ska kunna leverera minst tre olika drycker/variationer på drycker.
-    Det ska gå att betala på minst två olika sätt (t.ex. med olika myntvalörer, med kontokort och mynt eller liknande).
-    Du ska skriva så många scenarier som behövs för att testa alla möjliga sätt att använda (och missbruka) maskinen.
-    Du ska ha ha skrivit step-definitions och programkod för minst 20% av dina scenarier.
-    Lägg dina dokument och din kod i ett git-repo.
+weighAmountOfMilk(amount)
+- fill the machine with amount of milk
+- if the amount is less or equal to 2l return that there is atleast 2l of milk left
 
-VG-krav
+weighAmountOfMilkWarning(amount)
+- insert amount to check
+- if the amount is lower than 2l then return that there is only 2l milk left
 
-Samma som G-kraven samt:
+insertMoney(inserted)
+- checks inserted if its not a number then throw an error
+- if it is a number then add it to an amount
 
-    Du ska ha ha skrivit step-definitions och programkod för ytterligare 20% av dina scenarier (totalt 40%).
-    Step-definitions ska använda sig av att Cucumber kan plocka ut siffror och/eller strängar från Gherkin och skicka till dem.
-    Du ska ha använt scenario outlines och minst en feature background.
-    Gör väl namngivna commits kontinuerligt under utveckling av scenarier, testkod och applikationskod i ditt git-repo.
+checkMoney(money)
+- add money to an amount
+
+checkAmountOfMoney()
+- return the coffee if <= of the inserted money
+
+checkAmountOfMoney2()
+- return the coffee if <= of the inserted money
+
+rightTypeOfCoffee()
+- if the right amount of money >= the cost of the coffee 
+- return "here is your coffee

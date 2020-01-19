@@ -142,7 +142,10 @@ module.exports = function () {
     });
 
     this.Then(/^enable\/dissable grinders$/, function () {
-
+        myMachine.dissableAndEnableGrinders();
+        assert.strictEqual(myMachine.coffeeTypeRegular, true, "if calling disableAndEnableGrinders check if coffeeTypeRegular is true");
+        assert.strictEqual(myMachine.coffeeTypeLatte, true, "if calling disableAndEnableGrinders check if coffeeTypeRegular is true");
+        assert.strictEqual(myMachine.coffeeTypeMocha, true, "if calling disableAndEnableGrinders check if coffeeTypeRegular is true");
     });
     //Scenario: coffee machine blenders ends
 

@@ -53,10 +53,6 @@ class CoffeeMachine {
       this.amoutOfCoffeContainter1 = 0;
       this.amoutOfCoffeContainter2 = 0;
       this.amoutOfCoffeContainter3 = 0; 
-      
-      this.lockForContainer1Outlet = false;
-      this.lockForContainer2Outlet = false;
-      this.lockForContainer3Outlet = false; 
 
       this.ingredientsFound = false;
       this.confirmation = false;
@@ -101,51 +97,51 @@ class CoffeeMachine {
       this.dispenseCoffee = false;
     
     }
-    //scenario 1 start
-    pluggedInToPower(){
-      this.connectedToPower = true;
-    }
+//scenario 1 start
+pluggedInToPower(){
+  this.connectedToPower = true;
+}
 
-    pluggedInToWater(){
-      this.connectedToWater = true;
-    }
+pluggedInToWater(){
+  this.connectedToWater = true;
+}
 
-    pluggedInToWaste(){
-      if(this.connectedToWater == true){
-      this.connectedToWaste = true;
-      }
-    }
+pluggedInToWaste(){
+  if(this.connectedToWater == true){
+  this.connectedToWaste = true;
+  }
+}
 
-    pressStartButton() {
-      if(this.connectedToPower == true) {
-        this.machineIsOn = true;
-      }
-    }
+pressStartButton() {
+  if(this.connectedToPower == true) {
+    this.machineIsOn = true;
+  }
+}
 //scenario 1 end
 
 //scenario 2 start
-    machineFanConnected(){
-      if(this.connectedToPower == true){
-        this.coffeFanIsOn = true;
-        this.coffeMachineFanPowerOn = true;
-      }
-    }
+machineFanConnected(){
+  if(this.connectedToPower == true){
+    this.coffeFanIsOn = true;
+    this.coffeMachineFanPowerOn = true;
+  }
+}
 
-    milkCoolerChecker(){
-      if(this.connectedToPower == true){
-        this.coolerForMilk = true;
-        this.coolerPowerOn = true;
-        this.milkCoolerTempOn = true;
-      }
-    }
+milkCoolerChecker(){
+  if(this.connectedToPower == true){
+    this.coolerForMilk = true;
+    this.coolerPowerOn = true;
+    this.milkCoolerTempOn = true;
+  }
+}
 
-    checkMilkCoolerTemp(temp){
-      if(this.coolerForMilkTempOk <= temp){
-        return this.coolerForMilkTempOk = true;
-      }else{
-        return this.coolerForMilkTempOk;
-      }
-    }
+checkMilkCoolerTemp(temp){
+  if(this.coolerForMilkTempOk <= temp){
+    return this.coolerForMilkTempOk = true;
+  }else{
+    return this.coolerForMilkTempOk = false;
+  }
+}
 //scenario 2 end
 
 //scenario 3 start
@@ -242,31 +238,28 @@ checkIfGrindersAreConnectedToConatiners(){
   }
 }
 
-dissableAndEnableGrinders(){ ///////////////ifbuttonpressed///////////////////fix
+dissableAndEnableGrinders(){ 
   if(this.grinderPower1 == true){
     if(this.grinder1ConnectedToCointainer1 == true){
+      this.coffeeTypeRegular = true;
       if(this.coffeeTypeRegular == true){
         this.grinderOn1 = true;
-      } else {
-        this.grinderOn1 = false;
       }
     }
   }
   if(this.grinderPower2 == true){
     if(this.grinder2ConnectedToCointainer2 == true){
+      this.coffeeTypeLatte = true;
       if(this.coffeeTypeLatte == true){
         this.grinderOn2 = true;
-      } else {
-        this.grinderOn2 = false;
       }
     }
   }
   if(this.grinderPower3 == true){
     if(this.grinder3ConnectedToCointainer3 == true){
+      this.coffeeTypeMocha = true;
       if(this.coffeeTypeMocha == true){
         this.grinderOn3 = true;
-      } else {
-        this.grinderOn3 = false;
       }
     }
   }
@@ -277,12 +270,10 @@ dissableAndEnableGrinders(){ ///////////////ifbuttonpressed///////////////////fi
 enableWaterFlushingFunction(){
   if(this.connectedToPower == true){
     this.waterTrayScalePower = true;
-    if(this.connectedToWater == true){
       if(this.connectedToWater == true){
         if(this.waterTrayScalePower == true){
           this.waterFlushingFunction = true;
           this.waterScaleOn = true;
-        }
       }
     }
   }
@@ -428,57 +419,10 @@ pluggedInToInternet(){
   this.connectedToInternet = true;
   }
 }
-
-
 //paymeny card feature end
+}
 
-
-
-
-
-
-
-    chooseRegularCoffee(){
-      this.coffeeTypeRegular = true;
-    }
-
-    chooseLatteCoffee(){
-      this.coffeeTypeLatte = true;
-    }
-
-    chooseMochaCoffee(){
-      this.coffeeTypeMocha = true;
-    }
-
-    containerLockToOutlet1(){
-      if(this.chooseRegularCoffee == true){
-        this.lockForContainer1Outlet = true;
-      }
-    }
-
-    containerLockToOutlet2(){
-      if(this.chooseLatteCoffee == true){
-        this.lockForContainer2Outlet = true;
-      }
-    }
-
-    containerLockToOutlet3(){
-      if(this.chooseMochaCoffee == true){
-        this.lockForContainer3Outlet = true;
-      }
-    }
-
-    checkIfFlushed(){
-      if(this.flushWaterTray == true){
-        if(this.waterTrayScaleWeigh == 0){
-          this.trayIsFlushed = true;
-        }
-      }
-    }
-
-  }
- 
-  // Export the CoffeeMachine class
-  module.exports = CoffeeMachine;
+// Export the CoffeeMachine class
+module.exports = CoffeeMachine;
 
 
