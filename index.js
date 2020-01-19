@@ -82,8 +82,24 @@ class CoffeeMachine {
 
       //300ml
       this.AmountOfWaterForBlackCoffee = 300;
+
+      //price per coffee
+      this.insertedMoney = 0;
+      this.blackCoffee = 15;
+      this.caffeeLatte = 20;
+      this.caffeeMocha = 20;
+
+      this.coffeeButton1 = false;
+      this.coffeeButton2 = false;
+      this.coffeeButton3 = false;
+
+      this.coffeeButtonPressed1 = false;
+      this.coffeeButtonPressed2 = false;
+      this.coffeeButtonPressed3 = false;
+
+      this.dispenseCoffee = false;
+    
     }
-    //maintenance
     //scenario 1 start
     pluggedInToPower(){
       this.connectedToPower = true;
@@ -355,10 +371,57 @@ confirmIngredientsAreFound(){
 
 //scenario 7 end
 
+//payment feature start
+
+insertMoney(inserted) {
+  if (typeof inserted !== 'number') {
+    throw (new Error('You must insert money not ' + nonMoney));
+  }
+  this.insertedMoney += inserted;
+}
+
+checkMoney(money){
+  this.insertedMoney += money;
+}
+
+checkAmountOfMoney(){
+  return this.blackCoffee <= this.insertedMoney;
+}
+checkAmountOfMoney2(){
+  return this.caffeeLatte <= this.insertedMoney;
+}
+coffeeButtons(){
+  this.coffeeButton1 = true;
+  this.coffeeButton2 = true;
+  this.coffeeButton3 = true;
+}
+coffeeButtonPress(){
+  if(this.coffeeButton1 == true){
+    this.coffeeButtonPressed1 = true;
+  }
+  if(this.coffeeButton2 == true){
+    this.coffeeButtonPressed2 = true;
+  }
+  if(this.coffeeButton3 == true){
+    this.coffeeButtonPressed3 = true;
+  }
+}
+
+rightTypeOfCoffee(){
+  if(this.insertedMoney >= this.blackCoffee){
+    return "here is your coffee"
+  }
+  if(this.insertedMoney >= this.caffeeLatte){
+    return "here is your coffee"
+  }
+  if(this.insertedMoney >= this.caffeeLatte){
+    return "here is your coffee"
+  }
+}
+//payment feature end
 
 
 
-        
 
 
 

@@ -1,6 +1,6 @@
 let CoffeeMachine = require('../index.js');
 let myMachine;
-let resultOfStartButton;
+let thisCoffee;
 module.exports = function () {
 
 //scenario The machine is connected to power/water and waste and start button works
@@ -174,7 +174,6 @@ module.exports = function () {
     //Scenario: coffee machine waterTray functions ends
 
     //Scenario: scale/weigh for milk for the coffee types start
-
     this.Given(/^that milk scale has power$/, function () {
         myMachine.checkIfmilkScaleHasPower();
         assert.strictEqual(myMachine.scaleForMilkHasPower, true, "expect that scaleForMilkHasPower is true if calling the checkIfmilkScaleHasPower() method");
@@ -197,11 +196,9 @@ module.exports = function () {
         myMachine.weighAmountOfMilkWarning(1900);
         assert.isBelow(myMachine.warningIfLowOnMilk, 2000,"expect warning when the amountOfMilk is bellow 2l of milk when calling weighAmountOfMilk()")
     });
-
     //Scenario: scale/weigh for milk for the coffee types end
 
     //Scenario: amount of ingrediens per blackCoffee start
-
     this.Given(/^that ingrediens excists$/, function () {
         myMachine.fillCoffeeContainer1(5000);
         assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
@@ -232,7 +229,6 @@ module.exports = function () {
     //Scenario: amount of ingrediens per blackCoffee end
 
     //Scenario: amount of ingrediens per MochaCoffee start
-
     this.Then(/^check if there is enough for a cup Mocha$/, function () {
         assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(), true, "if container is filled with 5kg of coffe there is enough for a cup");
 
@@ -247,4 +243,73 @@ module.exports = function () {
         assert.deepEqual(myMachine.checkAmountOfMilkForLatte(), true, "if container is filled with 5l of coffe there is enough for a cup");
     });
     //scenario amount of ingrediens per CaffeLatte end
+
+    //Scenario Outline: The customer pays with 5kr and 10kr coins for coffee start
+    this.Given(/^there is enough ingrediens for the different coffees$/, function () {
+
+        myMachine.weighAmountOfMilk(5000);      
+        myMachine.fillCoffeeContainer1(5000);
+        myMachine.fillCoffeeContainer2(5000);  
+        myMachine.fillCoffeeContainer3(5000);  
+
+        assert.deepEqual(myMachine.checkIfEnoughLatteCoffeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+        assert.deepEqual(myMachine.checkAmountOfMilkForLatte(), true, "if container is filled with 5l of coffe there is enough for a cup");
+
+        assert.deepEqual(myMachine.checkIfEnoughMochaForACUP(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+        assert.deepEqual(myMachine.checkAmountOfMilkForMocha(), true, "if container is filled with 5l of coffe there is enough for a cup");
+
+        assert.deepEqual(myMachine.checkIfEnoughBlackCoffeeForACup(), true, "if container is filled with 5kg of coffe there is enough for a cup");
+    });
+
+    this.When(/^the user inserts a (\d+) kr coin$/, function (amountOfMoney) {
+        amountOfMoney /= 1;
+
+        let moneyBefore = myMachine.insertedMoney;
+        myMachine.insertMoney(amountOfMoney);
+        assert.deepEqual(myMachine.insertedMoney, moneyBefore + amountOfMoney, "Expected the amount of money inserted to increase with the amount inserted");
+    });
+
+    this.When(/^the user inserts a "([^"]*)" kr coin$/, function (nonMoney) {
+        global.nonMoney = nonMoney
+
+        assert.throws(function () {myMachine.insertMoney(global.nonMoney);}, Error,       'You must insert money not ' + nonMoney, 'Expected the runtime error "You must insert money not ' + nonMoney + '"');
+    });
+
+    this.Then(/^check if there is enough money for the coffee$/, function () {
+        myMachine.checkMoney(15);
+        assert.deepEqual(myMachine.checkAmountOfMoney(), true, "there is enough monney for the coffee you want!");
+
+        myMachine.checkMoney(20);
+        assert.deepEqual(myMachine.checkAmountOfMoney2(), true, "there is enough monney for the coffee you want!");
+    });
+
+    this.Then(/^if right amount then activate button for chosen coffee$/, function () {
+        myMachine.coffeeButtons();
+        assert.strictEqual(myMachine.coffeeButton1, true, "button is activared");
+        assert.strictEqual(myMachine.coffeeButton2, true, "button is activared");
+        assert.strictEqual(myMachine.coffeeButton3, true, "button is activared");
+    });
+
+    this.Then(/^press one of the dispense buttons$/, function () { 
+        myMachine.coffeeButtonPress();
+        assert.strictEqual(myMachine.coffeeButtonPressed1, true, "button is activared");
+        assert.strictEqual(myMachine.coffeeButtonPressed2, true, "button is activared");
+        assert.strictEqual(myMachine.coffeeButtonPressed3, true, "button is activared");
+    });
+
+    this.Then(/^the user recieves the "([^"]*)" that was paid for\.$/, function (coffes) {
+        if(coffes === 'regular'){
+            thisCoffee = myMachine.rightTypeOfCoffee();
+        }
+        if(coffes === 'mocha'){
+            thisCoffee = myMachine.rightTypeOfCoffee();
+        }
+        if(coffes === 'latte'){
+            thisCoffee = myMachine.rightTypeOfCoffee();
+        }
+        if(coffes === 'nothing'){
+            thisCoffee = myMachine.rightTypeOfCoffee();
+        }
+    });
+    //Scenario Outline: The customer pays with 5kr and 10kr coins for coffee end
 }

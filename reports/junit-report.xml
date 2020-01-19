@@ -1,523 +1,479 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" tests="13" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0006249">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0007149">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001363">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000128799">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000167201">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000258">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001476">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000210899">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000175301">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000162901">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001582">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000122901">
         </testcase>
-        <testcase name="Given that the coffe machine fan has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000140099">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0005809">
         </testcase>
-        <testcase name="And that the cooler for the milk has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000140701">
+        <testcase name="When the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000173199">
         </testcase>
-        <testcase name="And that the coooler thermometer is connected to the cooler" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000087401">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000694">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000068099">
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000862">
         </testcase>
-        <testcase name="Then check if the fan is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0001291">
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000171099">
         </testcase>
-        <testcase name="And that the milk cooler is on" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.0005444">
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.001547099">
         </testcase>
-        <testcase name="And the check the cooler temperature" classname="coffe-machine-inner-basics;check-the-coffee-machine-coolers-functions" time="0.000197701">
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001775">
+        </testcase>
+        <testcase name="And the user recieves the &quot;regular&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000132599">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" tests="10" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000636">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000616">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000569">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000494">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000076899">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000546">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000053101">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000514">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0000328">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000060599">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000046701">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000050699">
         </testcase>
-        <testcase name="Given that the scales/weighs have power" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001357">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000098299">
         </testcase>
-        <testcase name="When the scales/weighs have power weigh the amount of coffe in the containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.000213201">
+        <testcase name="When the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000624">
         </testcase>
-        <testcase name="And get the machine to return the amount of coffee that is inside containers" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0001206">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000058201">
         </testcase>
-        <testcase name="Then return a warning when about to run low on coffee" classname="coffe-machine-inner-basics;check-the-coffee-machine-scales/weighs-for-the-coffee-machine" time="0.0002562">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000569">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000050399">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000485">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000077501">
+        </testcase>
+        <testcase name="And the user recieves the &quot;regular&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000044">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-bean-grinder" tests="9" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000592">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000056301">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000577">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000686">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000061701">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000060601">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000060701">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000056699">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000033999">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000354">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000589">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000567">
         </testcase>
-        <testcase name="Given that the bean grinders have power" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.000154001">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000051">
         </testcase>
-        <testcase name="When bean grinder are connected to containers" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0001332">
+        <testcase name="When the user inserts a &quot;annat&quot; kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000619701">
         </testcase>
-        <testcase name="Then enable/dissable grinders" classname="coffe-machine-inner-basics;coffee-machine-bean-grinder" time="0.0000517">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000039401">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000917">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001355">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000544">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000041201">
+        </testcase>
+        <testcase name="And the user recieves the &quot;regular&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000038999">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-watertray-functions" tests="10" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000638">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000059801">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000458">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000063999">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000611">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000048499">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.000056201">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000042999">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000452">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000036601">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000455">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000428">
         </testcase>
-        <testcase name="Given that watertray scale has power" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001488">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000088601">
         </testcase>
-        <testcase name="When watertray scale is on" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0000637">
+        <testcase name="When the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000063499">
         </testcase>
-        <testcase name="Then if watertray weighs a certain amount of waste" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0002133">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000064599">
         </testcase>
-        <testcase name="And find out if it needs to flush" classname="coffe-machine-inner-basics;coffee-machine-watertray-functions" time="0.0001623">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000054701">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000514">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000931">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000576">
+        </testcase>
+        <testcase name="And the user recieves the &quot;mocha&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000109701">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" tests="10" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000795">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000846">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000554">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000058201">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000566">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000048001">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000061899">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000044">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0000327">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000032601">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000053">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000557">
         </testcase>
-        <testcase name="Given that milk scale has power" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000129101">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000069701">
         </testcase>
-        <testcase name="When milk scale is on" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000115901">
+        <testcase name="When the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000056201">
         </testcase>
-        <testcase name="Then weigh if there is any milk" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.0002635">
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000048401">
         </testcase>
-        <testcase name="And warn if amount of milk is getting low" classname="coffe-machine-inner-basics;scale/weigh-for-milk-for-the-coffee-types" time="0.000158899">
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000040899">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000054799">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000673">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000052899">
+        </testcase>
+        <testcase name="And the user recieves the &quot;mocha&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000030801">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" tests="9" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000088499">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000614">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0000542">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000594">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000048301">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000040701">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001048">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000036199">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0000422">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000443">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0000579">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000090699">
         </testcase>
-        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000234">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000067501">
         </testcase>
-        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.0001522">
+        <testcase name="When the user inserts a &quot;annat&quot; kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001066">
         </testcase>
-        <testcase name="Then check if there is enough for a cup black coffee" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-blackcoffee" time="0.000133399">
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000496">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000042">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000082899">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000479">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000040799">
+        </testcase>
+        <testcase name="And the user recieves the &quot;mocha&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000327">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" tests="9" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000884">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001603">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000528">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000891101">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000516">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000050401">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000059701">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000417">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000328">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000035501">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000049101">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000050799">
         </testcase>
-        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.0000846">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000783">
         </testcase>
-        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000056301">
+        <testcase name="When the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000513">
         </testcase>
-        <testcase name="Then check if there is enough for a cup Mocha" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-mochacoffee" time="0.000112401">
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000060399">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000514">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000504">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000052">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000056299">
+        </testcase>
+        <testcase name="And the user recieves the &quot;latte&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000316">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" tests="9" failures="0" skipped="0">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000755">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000046801">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000533">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000060499">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000081801">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000046899">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000058601">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000044499">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000444">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000033201">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000562">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000042">
         </testcase>
-        <testcase name="Given that ingrediens excists" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.0000864">
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000658">
         </testcase>
-        <testcase name="When when ingrediens excistens are confirmed" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000050699">
+        <testcase name="When the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000064399">
         </testcase>
-        <testcase name="Then check if there is enough for a cup caffe Latte" classname="coffe-machine-inner-basics;amount-of-ingrediens-per-caffelatte" time="0.000186599">
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000573">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000081001">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000522">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000047001">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000068001">
+        </testcase>
+        <testcase name="And the user recieves the &quot;latte&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000285">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-water-boiler" tests="10" failures="0" skipped="4">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000627">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000049399">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000596">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000119101">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000435">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000048699">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000381">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000419">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000307">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000029701">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-water-boiler" time="0.0000377">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000592">
         </testcase>
-        <testcase name="Given that the water boiler has power" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000108501">
         </testcase>
-        <testcase name="And is connected to the blender" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts a &quot;annat&quot; kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001932">
         </testcase>
-        <testcase name="When coffee is orderd start boiling" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000556">
         </testcase>
-        <testcase name="Then empty the water into the blender" classname="coffe-machine-inner-basics;coffee-machine-water-boiler">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000802">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000065899">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000052801">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000048299">
+        </testcase>
+        <testcase name="And the user recieves the &quot;latte&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000569">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-milk-warmer" tests="10" failures="0" skipped="4">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000048599">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000062599">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.0000458">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000635">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000078801">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000594">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000062099">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000058201">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.0000397">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000345">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer" time="0.000055601">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000057899">
         </testcase>
-        <testcase name="Given that the water boiler has power" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000953">
         </testcase>
-        <testcase name="And is connected to the blender" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000041">
         </testcase>
-        <testcase name="When coffee is orderd start warming the milk" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000575">
         </testcase>
-        <testcase name="Then empty the milk into the blender" classname="coffe-machine-inner-basics;coffee-machine-milk-warmer">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000052301">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000043199">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000664">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000048701">
+        </testcase>
+        <testcase name="And the user recieves the &quot;nothing&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000273">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" tests="9" failures="0" skipped="3">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.0000509">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000043199">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.000065501">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000046099">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.000050701">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000050999">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.000042601">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000062299">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.0000404">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000301">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers" time="0.0000514">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000034">
         </testcase>
-        <testcase name="Given that the coffee of choise is made" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000065499">
         </testcase>
-        <testcase name="When the blender is full with the finished mix" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000343">
         </testcase>
-        <testcase name="Then dispense the coffee from propper outlet" classname="coffe-machine-inner-basics;coffee-machine-coffee-dispensers">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000444">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000065401">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000054201">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000461">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000092301">
+        </testcase>
+        <testcase name="And the user recieves the &quot;nothing&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000037899">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;when-a-coffee-is-chosen" tests="10" failures="0" skipped="4">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000443">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000056301">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000467">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000993">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000493">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000496">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.000039001">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000493">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.0000334">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000306">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen" time="0.000043001">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000387">
         </testcase>
-        <testcase name="Given that the displayscreen has power" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000786">
         </testcase>
-        <testcase name="When a choise is made" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts a &quot;annat&quot; kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001618">
         </testcase>
-        <testcase name="Then dissable the others" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000042">
         </testcase>
-        <testcase name="And add enable return button" classname="coffe-machine-inner-basics;when-a-coffee-is-chosen">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000052199">
+        </testcase>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.001631001">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000497">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000476">
+        </testcase>
+        <testcase name="And the user recieves the &quot;nothing&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000029599">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" tests="11" failures="0" skipped="5">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0001393">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000563">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000914">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000054701">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000638">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000044201">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000411">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000403">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.0000524">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000301">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees" time="0.000035799">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000959">
         </testcase>
-        <testcase name="Given the displayscreen has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000114399">
         </testcase>
-        <testcase name="When when the displayscreen is on" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts a &quot;annat&quot; kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001375">
         </testcase>
-        <testcase name="Then display the different coffees" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 10 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000050899">
         </testcase>
-        <testcase name="And display their prices" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000045101">
         </testcase>
-        <testcase name="And enable the coffee types buttons" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffees">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000041199">
+        </testcase>
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000539">
+        </testcase>
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000041501">
+        </testcase>
+        <testcase name="And the user recieves the &quot;nothing&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000479">
         </testcase>
     </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" tests="11" failures="0" skipped="5">
+    <testsuite name="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" tests="14" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
+            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000515">
+        <testcase name="Given that the machine is plugged in" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000516">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.000054899">
+        <testcase name="And the water is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000573">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000445">
+        <testcase name="And the waste is available" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000046899">
         </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000738">
+        <testcase name="When the machine has power" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000043299">
         </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000343">
+        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000386">
         </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee" time="0.0000429">
+        <testcase name="And machine started" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000840599">
         </testcase>
-        <testcase name="Given the black coffee choise is pressed" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given there is enough ingrediens for the different coffees" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000115899">
         </testcase>
-        <testcase name="When pressed display price again" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="When the user inserts a &quot;annat&quot; kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0001339">
         </testcase>
-        <testcase name="And wait for payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 5 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000403">
         </testcase>
-        <testcase name="Then confirm payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user inserts a 0 kr coin" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000426">
         </testcase>
-        <testcase name="And enable dispense button" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee1-blackcoffee">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then check if there is enough money for the coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.0000595">
         </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" tests="11" failures="0" skipped="5">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000109401">
+        <testcase name="And if right amount then activate button for chosen coffee" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000059801">
         </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.0000449">
+        <testcase name="And press one of the dispense buttons" classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000056899">
         </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000075701">
-        </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000049799">
-        </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.0000267">
-        </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee" time="0.000039901">
-        </testcase>
-        <testcase name="Given the mocha coffe choise is pressed" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When pressed display price again" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And wait for payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then confirm payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And enable dispense button" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee2-mochacoffee">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" tests="11" failures="0" skipped="5">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.0000565">
-        </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000052299">
-        </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000069401">
-        </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000036901">
-        </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.000027299">
-        </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte" time="0.0000454">
-        </testcase>
-        <testcase name="Given the coffee latte choise is pressed" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When pressed display price again" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And wait for payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then confirm payment" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="And enable dispense button" classname="coffe-machine-inner-basics;coffee-machine-display-screen-coffee3-caffelatte">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" tests="9" failures="0" skipped="3">
-        <properties>
-            <property name="URI" value="C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.000048301">
-        </testcase>
-        <testcase name="And the water is available" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000498">
-        </testcase>
-        <testcase name="And the waste is available" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000369">
-        </testcase>
-        <testcase name="When the machine has power" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000383">
-        </testcase>
-        <testcase name="Then press the start &quot;button&quot; to start the machine" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.0000341">
-        </testcase>
-        <testcase name="And machine started" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status" time="0.000052801">
-        </testcase>
-        <testcase name="Given that the displayscreen has power" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="When displayscreen is on" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then show how much coffee is left per coffee type" classname="coffe-machine-inner-basics;coffee-machine-display-ingredients-status">
-            <skipped message="">
-            </skipped>
+        <testcase name="And the user recieves the &quot;nothing&quot; that was paid for." classname="coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee" time="0.000033299">
         </testcase>
     </testsuite>
 </testsuites>

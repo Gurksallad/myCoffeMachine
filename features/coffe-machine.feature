@@ -59,57 +59,57 @@ Scenario: amount of ingrediens per CaffeLatte
   Then check if there is enough for a cup caffe Latte
 
 Scenario: coffee machine water-boiler
-Given that the water boiler has power
-And is connected to the blender
-When coffee is orderd start boiling
-Then empty the water into the blender
+  Given that the water boiler has power
+  And is connected to the blender
+  When coffee is orderd start boiling
+  Then empty the water into the blender
 
 Scenario: coffee machine milk-warmer
-Given that the water boiler has power
-And is connected to the blender
-When coffee is orderd start warming the milk
-Then empty the milk into the blender
+  Given that the water boiler has power
+  And is connected to the blender
+  When coffee is orderd start warming the milk
+  Then empty the milk into the blender
 
 Scenario: coffee machine coffee dispensers
-Given that the coffee of choise is made
-When the blender is full with the finished mix
-Then dispense the coffee from propper outlet
+  Given that the coffee of choise is made
+  When the blender is full with the finished mix
+  Then dispense the coffee from propper outlet
 
 Scenario: When a coffee is chosen
-Given that the displayscreen has power
-When a choise is made
-Then dissable the others
-And add enable return button
+  Given that the displayscreen has power
+  When a choise is made
+  Then dissable the others
+  And add enable return button
 
 Scenario: coffee machine display-screen-coffees
-Given the displayscreen has power
-When when the displayscreen is on
-Then display the different coffees
-And display their prices
-And enable the coffee types buttons
+  Given the displayscreen has power
+  When when the displayscreen is on
+  Then display the different coffees
+  And display their prices
+  And enable the coffee types buttons
 
 Scenario: coffee machine display-screen-coffee1-blackCoffee
-Given the black coffee choise is pressed
-When pressed display price again
-And wait for payment
-Then confirm payment
-And enable dispense button
+  Given the black coffee choise is pressed
+  When pressed display price again
+  And wait for payment
+  Then confirm payment
+  And enable dispense button
 
 Scenario: coffee machine display-screen-coffee2-MochaCoffee
-Given the mocha coffe choise is pressed
-When pressed display price again
-And wait for payment
-Then confirm payment
-And enable dispense button
+  Given the mocha coffe choise is pressed
+  When pressed display price again
+  And wait for payment
+  Then confirm payment
+  And enable dispense button
 
 Scenario: coffee machine display-screen-coffee3-CaffeLatte
-Given the coffee latte choise is pressed
-When pressed display price again
-And wait for payment
-Then confirm payment
-And enable dispense button
+  Given the coffee latte choise is pressed
+  When pressed display price again
+  And wait for payment
+  Then confirm payment
+  And enable dispense button
 
 Scenario: coffee machine display-ingredients-status
-Given that the displayscreen has power
-When displayscreen is on
-Then show how much coffee is left per coffee type
+  Given that the displayscreen has power
+  When displayscreen is on
+  Then show how much coffee is left per coffee type
