@@ -312,4 +312,26 @@ module.exports = function () {
         }
     });
     //Scenario Outline: The customer pays with 5kr and 10kr coins for coffee end
+
+    //Scenario Outline: The customer pays with creditcard blip function start
+
+    this.Given(/^acces to internet for blip function to be active$/, function () {
+        myMachine.pluggedInToInternet();
+        assert.strictEqual(myMachine.connectedToInternet, true, "when calling pluggedInToInternet() expect connectedToInternet to be true");
+    });
+
+    this.When(/^costumer scans the (\d+)$/, function (amountOfMoney) {    
+        amountOfMoney /= 1;
+
+        let moneyBefore = myMachine.insertedMoney;
+        myMachine.insertMoney(amountOfMoney);
+        assert.deepEqual(myMachine.insertedMoney, moneyBefore + amountOfMoney, "Expected the amount of money inserted to increase with the amount inserted");
+    });
+
+    this.When(/^costumer scans the "([^"]*)"$/, function (nonMoney) { 
+        global.nonMoney = nonMoney
+
+        assert.throws(function () {myMachine.insertMoney(global.nonMoney);}, Error,       'You must insert money not ' + nonMoney, 'Expected the runtime error "You must insert money not ' + nonMoney + '"');
+    });
+    //Scenario Outline: The customer pays with creditcard blip function end
 }

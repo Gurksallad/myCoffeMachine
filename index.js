@@ -5,6 +5,7 @@ class CoffeeMachine {
 
     constructor() {
 
+      this.connectedToInternet = false;
       this.connectedToPower = false;
       this.connectedToWater = false;
       this.connectedToWaste = false;
@@ -420,7 +421,16 @@ rightTypeOfCoffee(){
 }
 //payment feature end
 
+//paymeny card feature start
 
+pluggedInToInternet(){
+  if(this.connectedToPower == true){
+  this.connectedToInternet = true;
+  }
+}
+
+
+//paymeny card feature end
 
 
 

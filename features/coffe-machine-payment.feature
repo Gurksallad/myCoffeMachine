@@ -1,8 +1,6 @@
-Feature: coffe machine payment options
-    As a costumer i want to be able to pay the machine
-    with 5kr coins and 10kr coins
-    If i dont have any coins i want to be able to pay with
-    the blip function on my credit card
+Feature: coffe machine payment options coins
+  As a costumer i want to be able to pay the machine
+  with 5kr coins and 10kr coins to recive my coffee
 
 Background: The machine is connected to power/water and waste and start button works
   Given that the machine is plugged in 

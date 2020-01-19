@@ -1,9 +1,417 @@
 [
   {
-    "description": "    As a costumer i want to be able to pay the machine\n    with 5kr coins and 10kr coins\n    If i dont have any coins i want to be able to pay with\n    the blip function on my credit card",
+    "description": "  As a costumer i want to be able to pay the machine\n  with 5kr coins and 10kr coins to recive my coffee",
     "elements": [
       {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 645900
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 155900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 171900
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 121201
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 151800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 117599
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 500300
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 191300
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 66000
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 63899
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 163300
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 126799
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 162400
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"regular\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 127600
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1896050800
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 71499
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 68299
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 62800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 70400
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 40600
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 46600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 73000
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 40100
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 36600
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 44500
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 45100
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 49400
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 58000
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"regular\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 45099
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1536331700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
         "keyword": "Scenario",
         "line": 27,
         "name": "The customer pays with 5kr and 10kr coins for coffee",
@@ -14,9 +422,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 714900
+              "duration": 65399
             },
-            "line": 8,
+            "line": 6,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
             }
@@ -27,9 +435,9 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 128799
+              "duration": 71701
             },
-            "line": 9,
+            "line": 7,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
             }
@@ -40,9 +448,9 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 258000
+              "duration": 48300
             },
-            "line": 10,
+            "line": 8,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
             }
@@ -53,9 +461,9 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 210899
+              "duration": 50599
             },
-            "line": 11,
+            "line": 9,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
             }
@@ -66,9 +474,9 @@
             "name": "press the start \"button\" to start the machine",
             "result": {
               "status": "passed",
-              "duration": 162901
+              "duration": 33800
             },
-            "line": 12,
+            "line": 10,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
             }
@@ -79,9 +487,9 @@
             "name": "machine started",
             "result": {
               "status": "passed",
-              "duration": 122901
+              "duration": 59000
             },
-            "line": 13,
+            "line": 11,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
             }
@@ -92,9 +500,9 @@
             "name": "there is enough ingrediens for the different coffees",
             "result": {
               "status": "passed",
-              "duration": 580900
+              "duration": 92300
             },
-            "line": 16,
+            "line": 14,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
             }
@@ -102,14 +510,14 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
+            "name": "the user inserts a \"annat\" kr coin",
             "result": {
               "status": "passed",
-              "duration": 173199
+              "duration": 826299
             },
-            "line": 17,
+            "line": 15,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
             }
           },
           {
@@ -118,9 +526,9 @@
             "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 69400
+              "duration": 118001
             },
-            "line": 18,
+            "line": 16,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
@@ -131,9 +539,9 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 86200
+              "duration": 86100
             },
-            "line": 19,
+            "line": 17,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
@@ -144,9 +552,9 @@
             "name": "check if there is enough money for the coffee",
             "result": {
               "status": "passed",
-              "duration": 171099
+              "duration": 59300
             },
-            "line": 20,
+            "line": 18,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
             }
@@ -157,9 +565,9 @@
             "name": "if right amount then activate button for chosen coffee",
             "result": {
               "status": "passed",
-              "duration": 1547099
+              "duration": 48401
             },
-            "line": 21,
+            "line": 19,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
             }
@@ -170,9 +578,9 @@
             "name": "press one of the dispense buttons",
             "result": {
               "status": "passed",
-              "duration": 177500
+              "duration": 54701
             },
-            "line": 22,
+            "line": 20,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
             }
@@ -183,9 +591,9 @@
             "name": "the user recieves the \"regular\" that was paid for.",
             "result": {
               "status": "passed",
-              "duration": 132599
+              "duration": 52601
             },
-            "line": 23,
+            "line": 21,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
             }
@@ -195,7 +603,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1894062401
+              "duration": 1535315200
             },
             "hidden": true,
             "match": {
@@ -207,7 +615,7 @@
         "type": "scenario"
       },
       {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
         "keyword": "Scenario",
         "line": 28,
         "name": "The customer pays with 5kr and 10kr coins for coffee",
@@ -218,9 +626,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 61600
+              "duration": 48799
             },
-            "line": 8,
+            "line": 6,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
             }
@@ -231,9 +639,9 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 49400
+              "duration": 62300
             },
-            "line": 9,
+            "line": 7,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
             }
@@ -244,214 +652,10 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 54600
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 51400
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 60599
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 50699
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 98299
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 62400
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 58201
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 56900
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 50399
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 48500
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 77501
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"regular\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 44000
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1535188300
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 29,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 56301
+              "duration": 65200
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 68600
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 60601
-            },
-            "line": 10,
-            "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
             }
           },
@@ -461,9 +665,9 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 56699
+              "duration": 41800
             },
-            "line": 11,
+            "line": 9,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
             }
@@ -474,214 +678,10 @@
             "name": "press the start \"button\" to start the machine",
             "result": {
               "status": "passed",
-              "duration": 35400
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 56700
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 51000
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a \"annat\" kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 619701
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 39401
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 91700
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 135500
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 54400
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 41201
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"regular\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 38999
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1535890200
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 30,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 59801
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 63999
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 48499
+              "duration": 35900
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 42999
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 36601
-            },
-            "line": 12,
-            "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
             }
           },
@@ -691,9 +691,9 @@
             "name": "machine started",
             "result": {
               "status": "passed",
-              "duration": 42800
+              "duration": 44800
             },
-            "line": 13,
+            "line": 11,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
             }
@@ -704,9 +704,9 @@
             "name": "there is enough ingrediens for the different coffees",
             "result": {
               "status": "passed",
-              "duration": 88601
+              "duration": 91300
             },
-            "line": 16,
+            "line": 14,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
             }
@@ -717,9 +717,9 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 63499
+              "duration": 67499
             },
-            "line": 17,
+            "line": 15,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
@@ -728,636 +728,24 @@
             "arguments": [],
             "keyword": "And ",
             "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 64599
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 54701
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 51400
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 93100
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 57600
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"mocha\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 109701
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1535059900
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 31,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 84600
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 58201
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 48001
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 44000
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 32601
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 55700
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 69701
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 56201
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 48401
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 40899
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 54799
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 67300
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 52899
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"mocha\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 30801
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1804253300
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 32,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 61400
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 59400
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 40701
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 36199
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 44300
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 90699
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 67501
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a \"annat\" kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 106600
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 49600
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 42000
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 82899
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
             "result": {
               "status": "passed",
               "duration": 47900
             },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 40799
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"mocha\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 32700
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1535269100
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 33,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 160300
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 891101
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 50401
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 41700
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 35501
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 50799
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 78300
-            },
             "line": 16,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 51300
+              "duration": 52201
             },
             "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 60399
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 51400
-            },
-            "line": 19,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
@@ -1370,7 +758,7 @@
               "status": "passed",
               "duration": 50400
             },
-            "line": 20,
+            "line": 18,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
             }
@@ -1381,214 +769,10 @@
             "name": "if right amount then activate button for chosen coffee",
             "result": {
               "status": "passed",
-              "duration": 52000
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 56299
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"latte\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 31600
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1533130200
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 34,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 46801
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 60499
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 46899
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 44499
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 33201
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 42000
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 65800
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 64399
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 57300
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 81001
+              "duration": 74700
             },
             "line": 19,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 52200
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 47001
-            },
-            "line": 21,
-            "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
             }
           },
@@ -1598,9 +782,9 @@
             "name": "press one of the dispense buttons",
             "result": {
               "status": "passed",
-              "duration": 68001
+              "duration": 55001
             },
-            "line": 22,
+            "line": 20,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
             }
@@ -1608,12 +792,12 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user recieves the \"latte\" that was paid for.",
+            "name": "the user recieves the \"mocha\" that was paid for.",
             "result": {
               "status": "passed",
-              "duration": 28500
+              "duration": 35700
             },
-            "line": 23,
+            "line": 21,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
             }
@@ -1623,7 +807,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1536376299
+              "duration": 1541404499
             },
             "hidden": true,
             "match": {
@@ -1635,9 +819,9 @@
         "type": "scenario"
       },
       {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
         "keyword": "Scenario",
-        "line": 35,
+        "line": 29,
         "name": "The customer pays with 5kr and 10kr coins for coffee",
         "steps": [
           {
@@ -1646,9 +830,9 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 49399
+              "duration": 83399
             },
-            "line": 8,
+            "line": 6,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
             }
@@ -1659,9 +843,9 @@
             "name": "the water is available",
             "result": {
               "status": "passed",
-              "duration": 119101
+              "duration": 59799
             },
-            "line": 9,
+            "line": 7,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
             }
@@ -1672,214 +856,10 @@
             "name": "the waste is available",
             "result": {
               "status": "passed",
-              "duration": 48699
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 41900
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 29701
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 59200
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 108501
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a \"annat\" kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 193200
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 55600
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 80200
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 65899
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 52801
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 48299
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"latte\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 56900
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1820950500
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 36,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 62599
+              "duration": 47201
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 63500
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 59400
-            },
-            "line": 10,
-            "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
             }
           },
@@ -1889,825 +869,9 @@
             "name": "the machine has power",
             "result": {
               "status": "passed",
-              "duration": 58201
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 34500
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 57899
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 95300
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 41000
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 57500
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 52301
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 43199
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 66400
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 48701
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"nothing\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 27300
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1541707000
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 37,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 43199
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 46099
+              "duration": 42100
             },
             "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 50999
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 62299
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 30100
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 34000
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 65499
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 34300
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 44400
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 65401
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 54201
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 46100
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 92301
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"nothing\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 37899
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1536107500
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 38,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 56301
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 99300
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 49600
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 49300
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 30600
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 38700
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 78600
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a \"annat\" kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 161800
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 42000
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 52199
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 1631001
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 49700
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 47600
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"nothing\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 29599
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1537217901
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 39,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 56300
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 54701
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 44201
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 40300
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "press the start \"button\" to start the machine",
-            "result": {
-              "status": "passed",
-              "duration": 30100
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "machine started",
-            "result": {
-              "status": "passed",
-              "duration": 95900
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "there is enough ingrediens for the different coffees",
-            "result": {
-              "status": "passed",
-              "duration": 114399
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user inserts a \"annat\" kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 137500
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 50899
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 45101
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "check if there is enough money for the coffee",
-            "result": {
-              "status": "passed",
-              "duration": 41199
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "if right amount then activate button for chosen coffee",
-            "result": {
-              "status": "passed",
-              "duration": 53900
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "press one of the dispense buttons",
-            "result": {
-              "status": "passed",
-              "duration": 41501
-            },
-            "line": 22,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user recieves the \"nothing\" that was paid for.",
-            "result": {
-              "status": "passed",
-              "duration": 47900
-            },
-            "line": 23,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1811542500
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "coffe-machine-payment-options;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
-        "keyword": "Scenario",
-        "line": 40,
-        "name": "The customer pays with 5kr and 10kr coins for coffee",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 51600
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the water is available",
-            "result": {
-              "status": "passed",
-              "duration": 57300
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the waste is available",
-            "result": {
-              "status": "passed",
-              "duration": 46899
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the machine has power",
-            "result": {
-              "status": "passed",
-              "duration": 43299
-            },
-            "line": 11,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
             }
@@ -2720,7 +884,7 @@
               "status": "passed",
               "duration": 38600
             },
-            "line": 12,
+            "line": 10,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
             }
@@ -2731,9 +895,9 @@
             "name": "machine started",
             "result": {
               "status": "passed",
-              "duration": 840599
+              "duration": 60501
             },
-            "line": 13,
+            "line": 11,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
             }
@@ -2744,9 +908,9 @@
             "name": "there is enough ingrediens for the different coffees",
             "result": {
               "status": "passed",
-              "duration": 115899
+              "duration": 75601
             },
-            "line": 16,
+            "line": 14,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
             }
@@ -2754,25 +918,25 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user inserts a \"annat\" kr coin",
+            "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 133900
+              "duration": 46700
             },
-            "line": 17,
+            "line": 15,
             "match": {
-              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
+            "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 40300
+              "duration": 40899
             },
-            "line": 18,
+            "line": 16,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
@@ -2783,9 +947,9 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 42600
+              "duration": 60900
             },
-            "line": 19,
+            "line": 17,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
             }
@@ -2796,9 +960,9 @@
             "name": "check if there is enough money for the coffee",
             "result": {
               "status": "passed",
-              "duration": 59500
+              "duration": 67799
             },
-            "line": 20,
+            "line": 18,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
             }
@@ -2809,9 +973,9 @@
             "name": "if right amount then activate button for chosen coffee",
             "result": {
               "status": "passed",
-              "duration": 59801
+              "duration": 73600
             },
-            "line": 21,
+            "line": 19,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
             }
@@ -2822,9 +986,1029 @@
             "name": "press one of the dispense buttons",
             "result": {
               "status": "passed",
-              "duration": 56899
+              "duration": 53300
             },
-            "line": 22,
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"mocha\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 30000
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1803782601
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 88000
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 54001
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 66201
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 48100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 38899
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 53600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 75700
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"annat\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 233700
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 45700
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 44400
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 69701
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 75700
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 52800
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"mocha\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 29701
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1533606501
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 65000
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 51800
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 51400
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 44000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 35801
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 49100
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 77900
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 63701
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 64399
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 40200
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 49299
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 52201
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 88901
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"latte\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 32101
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1537022199
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 49299
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 55301
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 53800
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 58799
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 57300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 59600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 50700
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 81400
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 50401
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 41501
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 46699
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 43000
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 51000
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"latte\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 54199
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2036533300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 67499
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 72899
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 84100
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 50999
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 86000
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 52600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 65399
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"annat\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 195501
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 49999
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 54401
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 71901
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 510100
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 78501
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"latte\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 47200
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1823870600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 47199
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 50900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 46501
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 39700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 31799
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 48800
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 63501
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 53200
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 44699
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 41301
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 55500
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 52799
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 50701
+            },
+            "line": 20,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
             }
@@ -2835,9 +2019,9 @@
             "name": "the user recieves the \"nothing\" that was paid for.",
             "result": {
               "status": "passed",
-              "duration": 33299
+              "duration": 37401
             },
-            "line": 23,
+            "line": 21,
             "match": {
               "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
             }
@@ -2847,7 +2031,823 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1533297900
+              "duration": 1536768499
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 57400
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 53500
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 41101
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 41301
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 34599
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 39900
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 52401
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 41200
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 86599
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 63500
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 54900
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 82100
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 104099
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"nothing\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 38401
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1532710300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 62001
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 53699
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 43700
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 77801
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 33799
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 86000
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 77499
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"annat\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 169800
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 98499
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 65900
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 71200
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 54599
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 44600
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"nothing\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 37399
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1533453400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 95300
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 56200
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 62000
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 51600
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 42800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 755000
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 50401
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"annat\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 126899
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 72200
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 52201
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 50500
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 58000
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 58401
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"nothing\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 43601
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1808698300
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-coins;the-customer-pays-with-5kr-and-10kr-coins-for-coffee",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "The customer pays with 5kr and 10kr coins for coffee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 51600
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the water is available",
+            "result": {
+              "status": "passed",
+              "duration": 47500
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the waste is available",
+            "result": {
+              "status": "passed",
+              "duration": 42900
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the machine has power",
+            "result": {
+              "status": "passed",
+              "duration": 44000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "press the start \"button\" to start the machine",
+            "result": {
+              "status": "passed",
+              "duration": 33300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "machine started",
+            "result": {
+              "status": "passed",
+              "duration": 45400
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 60199
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"annat\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 186001
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:272"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 43900
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 92401
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:264"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 40200
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 43199
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 42899
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"nothing\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 38300
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1537264699
             },
             "hidden": true,
             "match": {
@@ -2859,11 +2859,474 @@
         "type": "scenario"
       }
     ],
-    "id": "coffe-machine-payment-options",
+    "id": "coffe-machine-payment-options-coins",
     "keyword": "Feature",
     "line": 1,
-    "name": "coffe machine payment options",
+    "name": "coffe machine payment options coins",
     "tags": [],
     "uri": "C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment.feature"
+  },
+  {
+    "description": "  As a costumer i want to be able to pay the machine\n  with blipping my creditcard to recive my coffee",
+    "elements": [
+      {
+        "id": "coffe-machine-payment-options-card;the-customer-pays-with-creditcard-blip-function",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "The customer pays with creditcard blip function",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 91301
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "acces to internet for blip function to be active",
+            "result": {
+              "status": "passed",
+              "duration": 105901
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:318"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "costumer scans the 15",
+            "result": {
+              "status": "passed",
+              "duration": 76300
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:323"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 47200
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 53301
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 57799
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"regular\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 88200
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1540514201
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-card;the-customer-pays-with-creditcard-blip-function",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "The customer pays with creditcard blip function",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 61199
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "acces to internet for blip function to be active",
+            "result": {
+              "status": "passed",
+              "duration": 63699
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:318"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "costumer scans the 20",
+            "result": {
+              "status": "passed",
+              "duration": 48600
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:323"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 45001
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 46600
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 44499
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"mocha\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 39101
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1536592599
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-card;the-customer-pays-with-creditcard-blip-function",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "The customer pays with creditcard blip function",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 63200
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "acces to internet for blip function to be active",
+            "result": {
+              "status": "passed",
+              "duration": 56701
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:318"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "costumer scans the 20",
+            "result": {
+              "status": "passed",
+              "duration": 805899
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:323"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 51000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 54100
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 58800
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"latte\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 41900
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1805103101
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "coffe-machine-payment-options-card;the-customer-pays-with-creditcard-blip-function",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "The customer pays with creditcard blip function",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "there is enough ingrediens for the different coffees",
+            "result": {
+              "status": "passed",
+              "duration": 70099
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:248"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "acces to internet for blip function to be active",
+            "result": {
+              "status": "passed",
+              "duration": 48401
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:318"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "costumer scans the \"annat\"",
+            "result": {
+              "status": "passed",
+              "duration": 241100
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:331"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "check if there is enough money for the coffee",
+            "result": {
+              "status": "passed",
+              "duration": 51700
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:278"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "if right amount then activate button for chosen coffee",
+            "result": {
+              "status": "passed",
+              "duration": 60800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:286"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "press one of the dispense buttons",
+            "result": {
+              "status": "passed",
+              "duration": 47900
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:293"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user recieves the \"nothing\" that was paid for.",
+            "result": {
+              "status": "passed",
+              "duration": 29200
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\step-definitions\\coffe-machine.js:300"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1537916099
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Max\\Desktop\\myCoffeMachine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "coffe-machine-payment-options-card",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "coffe machine payment options card",
+    "tags": [],
+    "uri": "C:/Users/Max/Desktop/myCoffeMachine/features/coffe-machine-payment2.feature"
   }
 ]
